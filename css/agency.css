@@ -539,57 +539,57 @@ section h3.section-subheading {
 aside.clients img {
   margin: 50px auto; }
 
-section#contact {
+section#signup {
   background-color: #222;
   background-image: url(../img/map-image.png);
   background-position: center;
   background-repeat: no-repeat; }
 
-section#contact .section-heading {
+section#signup .section-heading {
   color: #fff; }
 
-section#contact .form-group {
+section#signup .form-group {
   margin-bottom: 25px; }
 
-section#contact .form-group input,
-section#contact .form-group textarea {
+section#signup .form-group input,
+section#signup .form-group textarea {
   padding: 20px; }
 
-section#contact .form-group input.form-control {
+section#signup .form-group input.form-control {
   height: auto; }
 
-section#contact .form-group textarea.form-control {
+section#signup .form-group textarea.form-control {
   height: 236px; }
 
-section#contact .form-control:focus {
+section#signup .form-control:focus {
   border-color: #fff;
   box-shadow: none; }
 
-section#contact::-webkit-input-placeholder {
+section#signup::-webkit-input-placeholder {
   text-transform: uppercase;
   font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
   font-weight: 700;
   color: #bbb; }
 
-section#contact:-moz-placeholder {
+section#signup:-moz-placeholder {
   text-transform: uppercase;
   font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
   font-weight: 700;
   color: #bbb; }
 
-section#contact::-moz-placeholder {
+section#signup::-moz-placeholder {
   text-transform: uppercase;
   font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
   font-weight: 700;
   color: #bbb; }
 
-section#contact:-ms-input-placeholder {
+section#signup:-ms-input-placeholder {
   text-transform: uppercase;
   font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
   font-weight: 700;
   color: #bbb; }
 
-section#contact .text-danger {
+section#signup .text-danger {
   color: #e74c3c; }
 
 footer {
