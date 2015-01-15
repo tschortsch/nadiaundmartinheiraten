@@ -277,7 +277,7 @@ section {
   h2.section-heading {
     margin-top: 0;
     margin-bottom: 15px;
-    font-size: 40px;
+    font-size: 26px;
   }
   h3.section-subheading {
     margin-bottom: 75px;
@@ -292,12 +292,20 @@ section {
 @media(min-width:768px) {
   section {
     padding: 150px 0;
+
+    h2.section-heading {
+      font-size: 36px;
+    }
   }
 }
 
 .service-heading {
   margin: 15px 0;
   text-transform: none;
+}
+
+.groomsmen-picture {
+  width: 150px;
 }
 
 section#signup {
@@ -332,28 +340,24 @@ section#signup .form-control:focus {
 
 section#signup::-webkit-input-placeholder {
   text-transform: uppercase;
-  font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
   font-weight: 700;
   color: #bbb;
 }
 
 section#signup:-moz-placeholder {
   text-transform: uppercase;
-  font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
   font-weight: 700;
   color: #bbb;
 }
 
 section#signup::-moz-placeholder {
   text-transform: uppercase;
-  font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
   font-weight: 700;
   color: #bbb;
 }
 
 section#signup:-ms-input-placeholder {
   text-transform: uppercase;
-  font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
   font-weight: 700;
   color: #bbb;
 }
@@ -370,7 +374,6 @@ footer {
 footer span.copyright {
   text-transform: uppercase;
   text-transform: none;
-  font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
   line-height: 40px;
 }
 
@@ -378,7 +381,6 @@ footer ul.quicklinks {
   margin-bottom: 0;
   text-transform: uppercase;
   text-transform: none;
-  font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
   line-height: 40px;
 }
 
