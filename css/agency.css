@@ -112,10 +112,11 @@ fieldset[disabled] .btn-xl.active {
       background-color: #9869B0; }
 
 .navbar-default .nav li a {
-  text-transform: uppercase;
-  font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
-  font-weight: 400;
+  font-family: "Droid Serif", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 20px;
+  font-style: italic;
   letter-spacing: 1px;
+  margin-left: 20px;
   color: #fff;
   text-shadow: 1px 1px 1px #323232;
   -webkit-transition: color .3s;

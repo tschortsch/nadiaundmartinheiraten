@@ -147,10 +147,11 @@ fieldset[disabled] .btn-xl.active {
 }
 
 .navbar-default .nav li a {
-  text-transform: uppercase;
-  font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
-  font-weight: 400;
+  font-family: $header-font-family;
+  font-size: 20px;
+  font-style: italic;
   letter-spacing: 1px;
+  margin-left: 20px;
   color: $color-text-primary;
   text-shadow: $text-shadow;
 
