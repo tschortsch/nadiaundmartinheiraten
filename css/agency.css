@@ -42,8 +42,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: "Droid Serif", "Helvetica Neue", Helvetica, Arial, sans-serif;
-  font-style: italic; }
+  font-family: "Great Vibes", "Helvetica Neue", Helvetica, Arial, cursive; }
 
 .bg-light-gray {
   background-color: #f7f7f7; }
@@ -51,12 +50,51 @@ h6 {
 .bg-darkest-gray {
   background-color: #222; }
 
+.loadingOverlay {
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  height: 100%;
+  z-index: 1000;
+  display: table;
+  background: white; }
+  .loadingOverlay i.fa {
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+    font-size: 45px;
+    -webkit-animation: pulsing 1.2s infinite;
+    -moz-animation: pulsing 1.2s infinite;
+    animation: pulsing 1.2s infinite;
+    color: #FF8C89; }
+
+@-webkit-keyframes pulsing {
+  0% {
+    -webkit-transform: scale(0.1);
+    opacity: 0.0; }
+  50% {
+    opacity: 1; }
+  100% {
+    -webkit-transform: scale(1.2);
+    opacity: 0; } }
+@keyframes pulsing {
+  0% {
+    transform: scale(0.1);
+    opacity: 0.0; }
+  50% {
+    opacity: 1; }
+  100% {
+    transform: scale(1.2);
+    opacity: 0; } }
+.navbar {
+  z-index: 200; }
+
 .btn-xl {
   padding: 20px 40px;
   border-color: #fff;
   border-radius: 3px;
-  font-style: italic;
-  font-family: "Droid Serif", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "Roboto Slab", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 18px;
   color: #fff;
   background-color: #9869B0; }
@@ -96,7 +134,7 @@ fieldset[disabled] .btn-xl.active {
   border-color: transparent;
   background-color: #9869B0; }
   .navbar-default .navbar-brand {
-    font-family: "Dancing Script", "Helvetica Neue", Helvetica, Arial, cursive;
+    font-family: "Great Vibes", "Helvetica Neue", Helvetica, Arial, cursive;
     color: #fff;
     text-shadow: 1px 1px 1px #323232; }
     .navbar-default .navbar-brand:hover, .navbar-default .navbar-brand:focus, .navbar-default .navbar-brand:active, .navbar-default .navbar-brand.active {
@@ -112,9 +150,8 @@ fieldset[disabled] .btn-xl.active {
       background-color: #9869B0; }
 
 .navbar-default .nav li a {
-  font-family: "Droid Serif", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "Great Vibes", "Helvetica Neue", Helvetica, Arial, cursive;
   font-size: 20px;
-  font-style: italic;
   letter-spacing: 1px;
   margin-left: 20px;
   color: #fff;
@@ -168,39 +205,32 @@ header {
   header .intro-text {
     padding-top: 100px;
     padding-bottom: 50px; }
+    header .intro-text .intro-heading {
+      margin-bottom: 10px;
+      font-family: "Great Vibes", "Helvetica Neue", Helvetica, Arial, cursive;
+      font-size: 50px;
+      line-height: 50px;
+      text-shadow: 1px 1px 1px #323232; }
     header .intro-text .intro-lead-in {
       margin-bottom: 25px;
-      font-family: "Droid Serif","Helvetica Neue",Helvetica,Arial,sans-serif;
+      font-family: "Great Vibes", "Helvetica Neue", Helvetica, Arial, cursive;
       font-size: 22px;
-      font-style: italic;
       line-height: 22px;
-      text-shadow: 1px 1px 1px #323232; }
-    header .intro-text .intro-heading {
-      margin-bottom: 25px;
-      text-transform: uppercase;
-      font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
-      font-size: 50px;
-      font-weight: 700;
-      line-height: 50px;
       text-shadow: 1px 1px 1px #323232; }
 
 @media (min-width: 768px) {
   header .intro-text {
     padding-top: 300px;
     padding-bottom: 200px; }
+    header .intro-text .intro-heading {
+      margin-bottom: 20px;
+      font-family: "Great Vibes", "Helvetica Neue", Helvetica, Arial, cursive;
+      font-size: 100px; }
     header .intro-text .intro-lead-in {
       margin-bottom: 25px;
-      font-family: "Droid Serif","Helvetica Neue",Helvetica,Arial,sans-serif;
-      font-size: 70px;
-      font-style: italic;
-      line-height: 40px; }
-    header .intro-text .intro-heading {
-      margin-bottom: 50px;
-      text-transform: uppercase;
-      font-family: "Droid Serif","Helvetica Neue",Helvetica,Arial,sans-serif;
-      font-size: 75px;
-      font-weight: 700;
-      line-height: 75px; } }
+      font-family: "Great Vibes", "Helvetica Neue", Helvetica, Arial, cursive;
+      font-size: 30px;
+      line-height: 30px; } }
 section {
   padding: 100px 0; }
   section h2.section-heading {
@@ -212,7 +242,6 @@ section {
     text-transform: none;
     font-family: "Droid Serif","Helvetica Neue",Helvetica,Arial,sans-serif;
     font-size: 16px;
-    font-style: italic;
     font-weight: 400; }
 
 @media (min-width: 768px) {
