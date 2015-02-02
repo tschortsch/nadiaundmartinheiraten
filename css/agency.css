@@ -236,19 +236,21 @@ section {
   section h2.section-heading {
     margin-top: 0;
     margin-bottom: 15px;
-    font-size: 26px; }
-  section h3.section-subheading {
-    margin-bottom: 75px;
-    text-transform: none;
-    font-family: "Droid Serif","Helvetica Neue",Helvetica,Arial,sans-serif;
-    font-size: 16px;
-    font-weight: 400; }
+    font-size: 36px; }
+    section h2.section-heading i.fa {
+      font-size: 0.7em;
+      margin-right: 5px; }
+  section h3 {
+    font-size: 28px; }
+    section h3.section-subheading {
+      margin-bottom: 75px;
+      font-size: 26px; }
 
 @media (min-width: 768px) {
   section {
     padding: 150px 0; }
     section h2.section-heading {
-      font-size: 36px; } }
+      font-size: 46px; } }
 .service-heading {
   margin: 15px 0;
   text-transform: none; }
