@@ -1,0 +1,35 @@
+html {
+  background: url(../Images/login-bg.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover; }
+
+body {
+  background-color: transparent; }
+
+header {
+  margin-top: 30px; }
+
+.intro-heading {
+  font-family: "Great Vibes", "Helvetica Neue", Helvetica, Arial, cursive;
+  color: #ffffff;
+  font-size: 60px;
+  text-shadow: 1px 1px 1px #323232; }
+  @media (min-width: 768px) {
+    .intro-heading {
+      font-size: 70px; } }
+  @media (min-width: 992px) {
+    .intro-heading {
+      font-size: 90px; } }
+
+#loginform {
+  margin-top: 20px;
+  background-color: rgba(255, 255, 255, 0.5);
+  padding: 20px;
+  border-radius: 10px; }
+
+#passwordStatus {
+  padding: 3px; }
+
+/*# sourceMappingURL=login-form.css.map */
