@@ -54,7 +54,9 @@ body {
     transform: scale(1.2);
     opacity: 0; } }
 header {
-  margin-top: 30px; }
+  margin-top: 30px;
+  padding-left: 15px;
+  padding-right: 15px; }
 
 .intro-heading {
   font-family: "Great Vibes", "Helvetica Neue", Helvetica, Arial, cursive;
