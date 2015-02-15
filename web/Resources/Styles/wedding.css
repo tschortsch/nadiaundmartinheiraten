@@ -43,5 +43,80 @@
     -ms-transform: scale(1.2);
     transform: scale(1.2);
     opacity: 0; } }
+.text-muted {
+  color: #777; }
+
+.text-primary {
+  color: #ffffff; }
+
+p {
+  font-size: 14px;
+  line-height: 1.75em; }
+
+a {
+  color: #ffffff; }
+  a:hover, a:focus, a:active, a.active {
+    color: #e6e6e6; }
+  a, a:hover, a:focus, a:active, a.active {
+    outline: 0; }
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Great Vibes", "Helvetica Neue", Helvetica, Arial, cursive; }
+
+header {
+  text-align: center;
+  color: #ffffff;
+  background: url(../Images/login-bg.jpg) no-repeat center center scroll;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover; }
+  header .intro-text {
+    padding-top: 100px;
+    padding-bottom: 50px; }
+    header .intro-text .intro-heading {
+      font-family: "Great Vibes", "Helvetica Neue", Helvetica, Arial, cursive;
+      font-size: 50px;
+      line-height: 60px;
+      text-shadow: 1px 1px 1px #323232; }
+    header .intro-text .intro-lead-in {
+      font-family: "Great Vibes", "Helvetica Neue", Helvetica, Arial, cursive;
+      font-size: 22px;
+      line-height: 22px;
+      text-shadow: 1px 1px 1px #323232; }
+  @media (min-width: 768px) {
+    header .intro-text {
+      padding-top: 300px;
+      padding-bottom: 200px; }
+      header .intro-text .intro-heading {
+        font-size: 100px;
+        line-height: 110px; }
+      header .intro-text .intro-lead-in {
+        font-size: 30px;
+        line-height: 30px; } }
+
+.navbar-default {
+  border-color: transparent;
+  background-color: #9869B0; }
+  .navbar-default .navbar-brand {
+    font-family: "Great Vibes", "Helvetica Neue", Helvetica, Arial, cursive;
+    color: #ffffff;
+    text-shadow: 1px 1px 1px #323232; }
+    .navbar-default .navbar-brand:hover, .navbar-default .navbar-brand:focus, .navbar-default .navbar-brand:active, .navbar-default .navbar-brand.active {
+      color: #e6e6e6; }
+  .navbar-default .navbar-collapse {
+    border-color: rgba(255, 255, 255, 0.02); }
+  .navbar-default .navbar-toggle {
+    border-color: #ffffff;
+    background-color: #7f4f97; }
+    .navbar-default .navbar-toggle .icon-bar {
+      background-color: #ffffff; }
+    .navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:focus {
+      background-color: #9869B0; }
 
 /*# sourceMappingURL=wedding.css.map */

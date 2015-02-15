@@ -1,3 +1,123 @@
 @import "variables";
 
 @import "loading-overlay";
+
+.text-muted {
+    color: #777;
+}
+
+.text-primary {
+    color: $text-primary-color;
+}
+
+p {
+    font-size: 14px;
+    line-height: 1.75em;
+}
+
+a {
+    color: $text-primary-color;
+
+    &:hover,
+    &:focus,
+    &:active,
+    &.active {
+        color: darken($text-primary-color, 10%);
+    }
+
+    &,
+    &:hover,
+    &:focus,
+    &:active,
+    &.active {
+        outline: 0;
+    }
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: $header-font-family;
+}
+
+header {
+    text-align: center;
+    color: $text-primary-color;
+    background: url(../Images/login-bg.jpg) no-repeat center center scroll;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+
+    .intro-text {
+        padding-top: 100px;
+        padding-bottom: 50px;
+
+        .intro-heading {
+            font-family: $header-font-family;
+            font-size: 50px;
+            line-height: 60px;
+            text-shadow: $text-shadow;
+        }
+        .intro-lead-in {
+            font-family: $header-font-family;
+            font-size: 22px;
+            line-height: 22px;
+            text-shadow: $text-shadow;
+        }
+    }
+
+    @media(min-width:768px) {
+        .intro-text {
+            padding-top: 300px;
+            padding-bottom: 200px;
+
+            .intro-heading {
+                font-size: 100px;
+                line-height: 110px;
+            }
+            .intro-lead-in {
+                font-size: 30px;
+                line-height: 30px;
+            }
+        }
+    }
+}
+
+.navbar-default {
+    border-color: transparent;
+    background-color: $navbar-color;
+
+    .navbar-brand {
+        font-family: $header-font-family;
+        color: $text-primary-color;
+        text-shadow: $text-shadow;
+
+        &:hover,
+        &:focus,
+        &:active,
+        &.active {
+            color: darken($text-primary-color, 10%);
+        }
+    }
+
+    .navbar-collapse {
+        border-color: rgba(255,255,255,.02);
+    }
+    .navbar-toggle {
+        border-color: $text-primary-color;
+        background-color: darken($navbar-color, 10%);
+
+        .icon-bar {
+            background-color: $text-primary-color;
+        }
+
+        &:hover,
+        &:focus {
+            background-color: $navbar-color;
+        }
+    }
+}

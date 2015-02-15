@@ -60,7 +60,7 @@ if(isset($_POST['login_submit'])) {
     <div class="container">
         <!-- Brand and toggle get grouped for better mobile display -->
         <div class="navbar-header page-scroll">
-            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-collapsed">
                 <span class="sr-only">Toggle navigation</span>
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
@@ -70,7 +70,7 @@ if(isset($_POST['login_submit'])) {
         </div>
 
         <!-- Collect the nav links, forms, and other content for toggling -->
-        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+        <div class="collapse navbar-collapse" id="navbar-collapsed">
             <ul class="nav navbar-nav navbar-right">
                 <li class="hidden">
                     <a href="#page-top"></a>
@@ -116,8 +116,6 @@ if(isset($_POST['login_submit'])) {
             </div>
         </div>
     </div>
-    </div>
-
 </section>
 
 <!-- Services Section -->
@@ -265,6 +263,7 @@ if(isset($_POST['login_submit'])) {
 <script src="Resources/JavaScripts/imagesloaded.pkgd.min.js"></script>
 
 <!-- Page Scripts -->
+<script src="Resources/JavaScripts/cbpAnimatedHeader.min.js"></script>
 <script src="Resources/JavaScripts/base.js"></script>
 
 </body>
