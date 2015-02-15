@@ -1,9 +1,37 @@
-html {
-  background: url(../Images/login-bg.jpg) no-repeat center center fixed;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover; }
+/* fullscreen setup */
+html, body {
+  /* give this to all tags from html to .fullscreen */
+  height: 100%; }
+
+.fullscreen,
+.content-a {
+  width: 100%;
+  min-height: 100%; }
+
+.not-fullscreen,
+.not-fullscreen .content-a,
+.fullscreen.not-overflow,
+.fullscreen.not-overflow .content-a {
+  height: 100%;
+  overflow: hidden; }
+
+/* content centering styles */
+.content-a {
+  display: table; }
+
+.content-b {
+  display: table-cell;
+  position: relative;
+  vertical-align: middle;
+  text-align: center; }
+
+/* background setup */
+.background {
+  background-repeat: no-repeat;
+  /* custom background-position */
+  background-position: 50% 50%;
+  /* ie8- graceful degradation */
+  background-position: 50% 50% !important; }
 
 body {
   background-color: transparent; }
@@ -54,7 +82,9 @@ body {
     transform: scale(1.2);
     opacity: 0; } }
 header {
-  margin-top: 30px; }
+  margin-top: 30px;
+  padding-left: 15px;
+  padding-right: 15px; }
 
 .intro-heading {
   font-family: "Great Vibes", "Helvetica Neue", Helvetica, Arial, cursive;
