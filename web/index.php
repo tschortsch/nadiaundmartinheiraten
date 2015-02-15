@@ -33,7 +33,7 @@ $wrongpassword = isset($_GET['wrongpassword']) && $_GET['wrongpassword'] == 1;
     <link rel="stylesheet" href="Resources/Styles/login-form.css">
 
 </head>
-<body class="fullscreen background" style="background-image:url('Resources/Images/login-bg.jpg');" data-img-width="4041" data-img-height="2730">
+<body>
 
 <!-- loading overlay -->
 <div class="loadingOverlay"><i class="fa fa-heart"></i></div>
