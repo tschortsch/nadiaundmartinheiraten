@@ -1,0 +1,93 @@
+
+.navbar-default {
+    border-color: transparent;
+    background-color: $navbar-color;
+
+    .navbar-brand {
+        font-family: $header-font-family;
+        color: $text-primary-color;
+        text-shadow: $text-shadow;
+
+        &:hover,
+        &:focus,
+        &:active,
+        &.active {
+            color: darken($text-primary-color, 10%);
+        }
+    }
+
+    .navbar-collapse {
+        border-color: rgba(255,255,255,.02);
+    }
+    .navbar-toggle {
+        border-color: $text-primary-color;
+        background-color: darken($navbar-color, 10%);
+
+        .icon-bar {
+            background-color: $text-primary-color;
+        }
+        &:hover,
+        &:focus {
+            background-color: $navbar-color;
+        }
+    }
+
+    .nav li a {
+        font-family: $header-font-family;
+        font-size: 20px;
+        letter-spacing: 1px;
+        margin-left: 20px;
+        color: $text-primary-color;
+        text-shadow: $text-shadow;
+
+        -webkit-transition: color .3s;
+        transition: color .3s;
+
+        &:hover,
+        &:focus,
+        &:active,
+        &.active {
+            outline: 0;
+            color: darken($text-primary-color, 10%);
+        }
+    }
+    .navbar-nav>.active>a {
+        border-radius: 0;
+        color: #fff;
+        background-color: darken($navbar-color, 10%);
+
+        &:hover,
+        &:focus {
+            color: #fff;
+            background-color: darken($navbar-color, 10%);
+        }
+    }
+
+    @media(min-width:768px) {
+        padding: 25px 0;
+        border: 0;
+        background-color: transparent;
+        -webkit-transition: padding .3s;
+        transition: padding .3s;
+
+        .navbar-brand {
+            font-size: 2em;
+            -webkit-transition: all .3s;
+            -moz-transition: all .3s;
+            transition: all .3s;
+        }
+
+        .navbar-nav>.active>a {
+            border-radius: 3px;
+        }
+
+        &.navbar-shrink {
+            padding: 7px 0;
+            background-color: $navbar-color;
+
+            .navbar-brand {
+                font-size: 1.5em;
+            }
+        }
+    }
+}

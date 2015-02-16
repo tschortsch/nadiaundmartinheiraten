@@ -263,7 +263,9 @@ if(isset($_POST['login_submit'])) {
 <script src="Resources/JavaScripts/imagesloaded.pkgd.min.js"></script>
 
 <!-- Page Scripts -->
-<script src="Resources/JavaScripts/cbpAnimatedHeader.min.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>
+<script src="Resources/JavaScripts/classie.js"></script>
+<script src="Resources/JavaScripts/cbpAnimatedHeader.js"></script>
 <script src="Resources/JavaScripts/base.js"></script>
 
 </body>

@@ -47,9 +47,6 @@ header {
     text-align: center;
     color: $text-primary-color;
     background: url(../Images/login-bg.jpg) no-repeat center center scroll;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
     background-size: cover;
 
     .intro-text {
@@ -87,37 +84,6 @@ header {
     }
 }
 
-.navbar-default {
-    border-color: transparent;
-    background-color: $navbar-color;
+@import "navbar";
 
-    .navbar-brand {
-        font-family: $header-font-family;
-        color: $text-primary-color;
-        text-shadow: $text-shadow;
 
-        &:hover,
-        &:focus,
-        &:active,
-        &.active {
-            color: darken($text-primary-color, 10%);
-        }
-    }
-
-    .navbar-collapse {
-        border-color: rgba(255,255,255,.02);
-    }
-    .navbar-toggle {
-        border-color: $text-primary-color;
-        background-color: darken($navbar-color, 10%);
-
-        .icon-bar {
-            background-color: $text-primary-color;
-        }
-
-        &:hover,
-        &:focus {
-            background-color: $navbar-color;
-        }
-    }
-}
