@@ -248,7 +248,7 @@ if(isset($_POST['login_submit'])) {
     <div class="container">
         <div class="row">
             <div class="col-md-12">
-                <span class="copyright">Copyright &copy; 2015 Jürg Hunziker</span>
+                <span class="copyright">&copy; 2015 built with <i class="fa fa-heart"></i> by Jürg Hunziker</span>
             </div>
         </div>
     </div>
