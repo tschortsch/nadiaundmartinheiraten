@@ -2,10 +2,6 @@
 
 @import "loading-overlay";
 
-.text-muted {
-    color: #777;
-}
-
 .text-primary {
     color: $text-primary-color;
 }
@@ -13,6 +9,7 @@
 p {
     font-size: 14px;
     line-height: 1.75em;
+    color: $main-color;
 }
 
 a {
@@ -44,7 +41,7 @@ h6 {
 }
 
 .bg-light-gray {
-    background-color: #f7f7f7;
+    background-color: $bg-striped;
 }
 
 header {
@@ -121,8 +118,11 @@ section {
     }
 }
 
+@import "timeline";
+
 .groomsmen-picture {
     width: 150px;
+    height: 150px;
 }
 
 footer {

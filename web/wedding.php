@@ -115,38 +115,51 @@ if(isset($_POST['login_submit'])) {
                 <h2 class="section-heading"><i class="fa fa-heart"></i> Das sind wir</h2>
             </div>
         </div>
+        <div class="row">
+            <div class="col-md-5">
+                <img src="Resources/Images/login-bg.jpg" class="img-responsive" />
+            </div>
+            <div class="col-md-7">
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit.</p>
+            </div>
+        </div>
     </div>
 </section>
 
 <!-- Services Section -->
 <section id="information" class="bg-light-gray">
     <div class="container">
-        <div class="row text-center">
-            <div class="col-md-4">
-                    <span class="fa-stack fa-4x">
-                        <i class="fa fa-circle fa-stack-2x"></i>
-                        <i class="fa fa-bell fa-stack-1x fa-inverse"></i>
-                    </span>
-                <h3 class="service-heading">Was</h3>
-                <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit.</p>
-            </div>
-            <div class="col-md-4">
-                    <span class="fa-stack fa-4x">
-                        <i class="fa fa-circle fa-stack-2x"></i>
-                        <i class="fa fa-map-marker fa-stack-1x fa-inverse"></i>
-                    </span>
-                <h3 class="service-heading">Wo</h3>
-                <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit.</p>
-            </div>
-            <div class="col-md-4">
-                    <span class="fa-stack fa-4x">
-                        <i class="fa fa-circle fa-stack-2x"></i>
-                        <i class="fa fa-clock-o fa-stack-1x fa-inverse"></i>
-                    </span>
-                <h3 class="service-heading">Wann</h3>
-                <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit.</p>
+        <div class="row">
+            <div class="col-sm-12 text-center">
+                <h2 class="section-heading"><i class="fa fa-clock-o"></i> Wann & Wo</h2>
             </div>
         </div>
+        <ul class="timeline">
+            <li>
+                <div class="timeline-badge warning"><i class="fa fa-glass"></i></div>
+                <div class="timeline-panel">
+                    <div class="timeline-heading">
+                        <h2 class="timeline-title">Apéro</h2>
+                    </div>
+                    <div class="timeline-body">
+                        <p><i class="fa fa-clock-o"></i> ab 14:30 Uhr</p>
+                        <p><i class="fa fa-map-marker"></i> im Restaurant Römerpark</p>
+                    </div>
+                </div>
+            </li>
+            <li class="timeline-inverted">
+                <div class="timeline-badge danger"><i class="fa fa-cutlery"></i></div>
+                <div class="timeline-panel">
+                    <div class="timeline-heading">
+                        <h2 class="timeline-title">Essen & Feier</h2>
+                    </div>
+                    <div class="timeline-body">
+                        <p><i class="fa fa-clock-o"></i> ab 18:00 Uhr</p>
+                        <p><i class="fa fa-map-marker"></i> im Dolder</p>
+                    </div>
+                </div>
+            </li>
+        </ul>
     </div>
 </section>
 
@@ -160,10 +173,10 @@ if(isset($_POST['login_submit'])) {
         </div>
         <div class="row">
             <div class="col-sm-offset-1 col-sm-3">
-                <img src="//www.gravatar.com/avatar/41c42656cf67fce9e98e1053b3c0c889?s=340" class="groomsmen-picture img-circle">
+                <img src="//scontent-fra.xx.fbcdn.net/hphotos-xap1/t31.0-8/1496105_10152155528894110_1616484322_o.jpg" class="groomsmen-picture img-circle">
             </div>
             <div class="col-sm-8">
-                <h3>Jürg</h3>
+                <h3>Josiane Tenüd</h3>
                 <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit.</p>
             </div>
         </div>
@@ -172,7 +185,7 @@ if(isset($_POST['login_submit'])) {
                 <img src="//www.gravatar.com/avatar/41c42656cf67fce9e98e1053b3c0c889?s=340" class="groomsmen-picture img-circle">
             </div>
             <div class="col-sm-8">
-                <h3>Jürg</h3>
+                <h3>Jürg Hunziker</h3>
                 <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit.</p>
             </div>
         </div>
