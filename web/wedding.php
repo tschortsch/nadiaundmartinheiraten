@@ -5,8 +5,14 @@ require_once('checklogin.php');
 $password = '';
 if(isset($_POST['password'])) {
     $password = $_POST['password'];
+} elseif(isset($_GET['password'])) {
+    $password = $_GET['password'];
 }
 $view = checkLogin($password);
+$subscription_result = '';
+if(isset($_GET['subscription'])) {
+    $subscription_result = $_GET['subscription'];
+}
 ?>
 
 <!DOCTYPE html>
@@ -203,49 +209,60 @@ $view = checkLogin($password);
         <div class="row">
             <div class="col-lg-12 text-center">
                 <h2 class="section-heading"><i class="fa fa-check-square-o"></i> Bin dabei</h2>
-                <h3 class="section-subheading text-muted">Bitte meldet euch bis am 20. Mai 2015 an.</h3>
+                <?php if($subscription_result != 'success'): ?>
+                    <h3 class="section-subheading text-muted">Bitte meldet euch bis am 20. Mai 2015 an.</h3>
+                <?php endif; ?>
             </div>
         </div>
         <div class="row">
             <div class="col-lg-12">
                 <?php if($view == 'apero'): ?>
-                <form name="sentMessage" id="subscribeForm" action="subscribe.php" method="post" novalidate>
-                    <input type="hidden" name="password" value="<?php echo $password; ?>" />
-                    <div class="row">
-                        <div class="col-md-6">
-                            <div class="form-group">
-                                <input type="text" class="form-control" placeholder="Name *" id="name" name="name" required data-validation-required-message="Bitte deinen Namen eingeben.">
-                                <p class="help-block text-danger"></p>
+                    <?php if($subscription_result == 'success'): ?>
+                        <p class="text-success lead text-center">Deine Anmeldung wurde erfolgreich versendet!</p>
+                    <?php else: ?>
+                        <?php if($subscription_result == 'error'): ?>
+                            <p class="text-danger lead text-center">Da hat etwas nicht geklappt. Versuchs doch noch einmal!</p>
+                        <?php endif; ?>
+                        <form name="sentMessage" id="subscribeForm" action="subscribe.php" method="post" novalidate>
+                            <input type="hidden" name="password" value="<?php echo $password; ?>" />
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <div class="form-group">
+                                        <input type="text" class="form-control" placeholder="Name *" id="name" name="name" required data-validation-required-message="Bitte deinen Namen eingeben.">
+                                        <p class="help-block text-danger"></p>
+                                    </div>
+                                    <div class="form-group">
+                                        <select class="form-control" id="count" name="count" required data-validation-required-message="Bitte die Anzahl Personen auswählen.">
+                                            <option value="0" disabled>Anzahl Personen</option>
+                                            <option value="1">alleine</option>
+                                            <option value="2">zu zweit</option>
+                                            <option value="3">zu dritt</option>
+                                            <option value="4">zu viert</option>
+                                            <option value="5">zu fünft</option>
+                                        </select>
+                                        <p class="help-block text-danger"></p>
+                                    </div>
+                                    <div class="form-group">
+                                        <input type="email" class="form-control" placeholder="Email *" id="email" name="email" required data-validation-required-message="Bitte gib deine Email Adresse ein.">
+                                        <p class="help-block text-danger"></p>
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="form-group">
+                                        <textarea class="form-control" placeholder="Mitteilung *" id="message" name="message"></textarea>
+                                        <p class="help-block text-danger"></p>
+                                    </div>
+                                </div>
+                                <div class="clearfix"></div>
+                                <div class="col-lg-12 text-center">
+                                    <div id="success"></div>
+                                    <button type="submit" class="btn btn-xl"><i class="fa fa-paper-plane-o"></i> Senden</button>
+                                </div>
                             </div>
-                            <div class="form-group">
-                                <select class="form-control" id="count" name="count" required data-validation-required-message="Bitte die Anzahl Personen auswählen.">
-                                    <option value="0" disabled>Anzahl Personen</option>
-                                    <option value="1">alleine</option>
-                                    <option value="2">zu zweit</option>
-                                    <option value="3">zu dritt</option>
-                                    <option value="4">zu viert</option>
-                                    <option value="5">zu fünft</option>
-                                </select>
-                                <p class="help-block text-danger"></p>
-                            </div>
-                            <div class="form-group">
-                                <input type="email" class="form-control" placeholder="Email *" id="email" name="email" required data-validation-required-message="Bitte gib deine Email Adresse ein.">
-                                <p class="help-block text-danger"></p>
-                            </div>
-                        </div>
-                        <div class="col-md-6">
-                            <div class="form-group">
-                                <textarea class="form-control" placeholder="Mitteilung *" id="message" name="message"></textarea>
-                                <p class="help-block text-danger"></p>
-                            </div>
-                        </div>
-                        <div class="clearfix"></div>
-                        <div class="col-lg-12 text-center">
-                            <div id="success"></div>
-                            <button type="submit" class="btn btn-xl"><i class="fa fa-paper-plane-o"></i> Senden</button>
-                        </div>
-                    </div>
-                </form>
+                        </form>
+                    <?php endif; ?>
+
+
                 <?php else: ?>
 
                 <?php endif; ?>
