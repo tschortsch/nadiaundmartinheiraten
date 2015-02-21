@@ -49,6 +49,7 @@
     position: relative;
     -webkit-box-shadow: 0 1px 6px rgba(0, 0, 0, 0.175);
     box-shadow: 0 1px 6px rgba(0, 0, 0, 0.175);
+    background-color: #ffffff;
 }
 
 .timeline > li > .timeline-panel:before {
@@ -73,11 +74,6 @@
     border-right: 0 solid #fff;
     border-bottom: 14px solid transparent;
     content: " ";
-
-    .bg-light-gray & {
-        border-left-color: $bg-striped;
-        border-right-color: $bg-striped;
-    }
 }
 
 .timeline > li > .timeline-badge {

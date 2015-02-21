@@ -1,22 +1,12 @@
 <?php
 require('../vendor/autoload.php');
+require_once('checklogin.php');
 
-if(isset($_POST['login_submit'])) {
-    $viewAperoPassword = '485c903c9c1fdff5c55e68555a2a6eef';
-    $viewEsssenPassword = 'c0ea1b785cee9fba54efbcfa9b678eb0';
-
-    $hashedPassword = md5($_POST['password']);
-    if($hashedPassword == $viewAperoPassword) {
-        $view = 'apero';
-    } elseif($hashedPassword == $viewEsssenPassword) {
-        $view = 'essen';
-    } else {
-        header("Location: index.php?wrongpassword=1");
-    }
-} else {
-    header("Location: index.php");
-    exit;
+$password = '';
+if(isset($_POST['password'])) {
+    $password = $_POST['password'];
 }
+$view = checkLogin($password);
 ?>
 
 <!DOCTYPE html>
@@ -218,40 +208,47 @@ if(isset($_POST['login_submit'])) {
         </div>
         <div class="row">
             <div class="col-lg-12">
-                <form name="sentMessage" id="contactForm" novalidate>
+                <?php if($view == 'apero'): ?>
+                <form name="sentMessage" id="subscribeForm" action="subscribe.php" method="post" novalidate>
+                    <input type="hidden" name="password" value="<?php echo $password; ?>" />
                     <div class="row">
                         <div class="col-md-6">
                             <div class="form-group">
-                                <input type="text" class="form-control" placeholder="Name *" id="name" required data-validation-required-message="Please enter your name.">
+                                <input type="text" class="form-control" placeholder="Name *" id="name" name="name" required data-validation-required-message="Bitte deinen Namen eingeben.">
                                 <p class="help-block text-danger"></p>
                             </div>
                             <div class="form-group">
-                                <input type="email" class="form-control" placeholder="Email *" id="email" required data-validation-required-message="Please enter your email address.">
-                                <p class="help-block text-danger"></p>
-                            </div>
-                            <div class="form-group">
-                                <select class="form-control" required data-validation-required-message="Please enter your phone number.">
-                                    <option disabled>Personen</option>
-                                    <option>alleine</option>
-                                    <option>zu zweit</option>
-                                    <option>zu dritt</option>
+                                <select class="form-control" id="count" name="count" required data-validation-required-message="Bitte die Anzahl Personen auswählen.">
+                                    <option value="0" disabled>Anzahl Personen</option>
+                                    <option value="1">alleine</option>
+                                    <option value="2">zu zweit</option>
+                                    <option value="3">zu dritt</option>
+                                    <option value="4">zu viert</option>
+                                    <option value="5">zu fünft</option>
                                 </select>
+                                <p class="help-block text-danger"></p>
+                            </div>
+                            <div class="form-group">
+                                <input type="email" class="form-control" placeholder="Email *" id="email" name="email" required data-validation-required-message="Bitte gib deine Email Adresse ein.">
                                 <p class="help-block text-danger"></p>
                             </div>
                         </div>
                         <div class="col-md-6">
                             <div class="form-group">
-                                <textarea class="form-control" placeholder="Mitteilung *" id="message" required data-validation-required-message="Please enter a message."></textarea>
+                                <textarea class="form-control" placeholder="Mitteilung *" id="message" name="message"></textarea>
                                 <p class="help-block text-danger"></p>
                             </div>
                         </div>
                         <div class="clearfix"></div>
                         <div class="col-lg-12 text-center">
                             <div id="success"></div>
-                            <button type="submit" class="btn btn-xl">Anmelden</button>
+                            <button type="submit" class="btn btn-xl"><i class="fa fa-paper-plane-o"></i> Senden</button>
                         </div>
                     </div>
                 </form>
+                <?php else: ?>
+
+                <?php endif; ?>
             </div>
         </div>
     </div>

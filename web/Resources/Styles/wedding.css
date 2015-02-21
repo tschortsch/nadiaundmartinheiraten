@@ -219,7 +219,8 @@ section {
   padding: 20px;
   position: relative;
   -webkit-box-shadow: 0 1px 6px rgba(0, 0, 0, 0.175);
-  box-shadow: 0 1px 6px rgba(0, 0, 0, 0.175); }
+  box-shadow: 0 1px 6px rgba(0, 0, 0, 0.175);
+  background-color: #ffffff; }
 
 .timeline > li > .timeline-panel:before {
   position: absolute;
@@ -242,9 +243,6 @@ section {
   border-right: 0 solid #fff;
   border-bottom: 14px solid transparent;
   content: " "; }
-  .bg-light-gray .timeline > li > .timeline-panel:after {
-    border-left-color: #f7f7f7;
-    border-right-color: #f7f7f7; }
 
 .timeline > li > .timeline-badge {
   color: #fff;
@@ -336,6 +334,15 @@ section {
 .groomsmen-picture {
   width: 150px;
   height: 150px; }
+
+.btn-xl {
+  padding: 10px 25px;
+  font-size: 16px;
+  color: #ffffff;
+  background-color: #9869B0; }
+  .btn-xl:hover, .btn-xl:focus, .btn-xl:active, .btn-xl.active {
+    color: #ffffff;
+    background-color: #7f4f97; }
 
 footer {
   background-color: #363636;

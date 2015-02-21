@@ -54,7 +54,7 @@ $wrongpassword = isset($_GET['wrongpassword']) && $_GET['wrongpassword'] == 1;
                         <div id="passwordStatus" class="text-danger">Da hast du dich wohl vertippt. Versuchs doch nochmals!</div>
                     <?php } ?>
                 </div>
-                <button type="submit" class="btn btn-default" id="login_submit" name="login_submit"><i class="fa fa-heart"></i> Webseite öffnen</button>
+                <button type="submit" class="btn btn-default"><i class="fa fa-heart"></i> Webseite öffnen</button>
             </form>
         </div>
     </div>
