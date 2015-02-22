@@ -15,6 +15,7 @@ if($view == 'apero') {
         empty($_POST['email']) ||
         !filter_var($_POST['email'], FILTER_VALIDATE_EMAIL))
     {
+        header('HTTP/1.1 400 Bad Request');
         return false;
     }
 
@@ -64,6 +65,7 @@ if($view == 'apero') {
     } catch(Mandrill_Error $e) {
         // Mandrill errors are thrown as exceptions
         echo 'A mandrill error occurred: ' . get_class($e) . ' - ' . $e->getMessage();
+        header('HTTP/1.1 400 Bad Request');
         return false;
     }
 }

@@ -32,6 +32,9 @@ $(function() {
                     .append("<strong>Deine Anmeldung wurde versendet. </strong>");
                 $('#submitMessage > .alert-success')
                     .append('</div>');
+
+                //clear all fields
+                $('#contactForm').trigger("reset");
             })
             .fail(function() {
                 // Fail message
@@ -40,10 +43,6 @@ $(function() {
                     .append("</button>");
                 $('#submitMessage > .alert-danger').append("<strong>Hmm, da hat etwas nicht funktioniert. Versuchs doch noch einmal!");
                 $('#submitMessage > .alert-danger').append('</div>');
-            })
-            .always(function() {
-                //clear all fields
-                $('#contactForm').trigger("reset");
             });
         },
         filter: function() {
