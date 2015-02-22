@@ -217,54 +217,47 @@ if(isset($_GET['subscription'])) {
         <div class="row">
             <div class="col-lg-12">
                 <?php if($view == 'apero'): ?>
-                    <?php if($subscription_result == 'success'): ?>
-                        <p class="text-success lead text-center">Deine Anmeldung wurde erfolgreich versendet!</p>
-                    <?php else: ?>
-                        <?php if($subscription_result == 'error'): ?>
-                            <p class="text-danger lead text-center">Da hat etwas nicht geklappt. Versuchs doch noch einmal!</p>
-                        <?php endif; ?>
-                        <form name="sentMessage" id="contactForm" novalidate>
-                            <input type="hidden" name="password" value="<?php echo $password; ?>" />
-                            <div class="row">
-                                <div class="col-md-6">
-                                    <div class="form-group">
-                                        <input type="text" class="form-control" placeholder="Name *" id="name" name="name" required data-validation-required-message="Bitte deinen Namen eingeben.">
-                                        <p class="help-block text-danger"></p>
-                                    </div>
-                                    <div class="form-group">
-                                        <select class="form-control" id="count" name="count" required data-validation-required-message="Bitte die Anzahl Personen auswählen.">
-                                            <option value="">Anzahl Personen</option>
-                                            <option value="1">alleine</option>
-                                            <option value="2">zu zweit</option>
-                                            <option value="3">zu dritt</option>
-                                            <option value="4">zu viert</option>
-                                            <option value="5">zu fünft</option>
-                                        </select>
-                                        <p class="help-block text-danger"></p>
-                                    </div>
-                                    <div class="form-group">
-                                        <input type="email" class="form-control" placeholder="Email *" id="email" name="email" required data-validation-required-message="Bitte gib deine Email Adresse ein." data-validation-email-message="Da scheint was nicht zu stimmen.">
-                                        <p class="help-block text-danger"></p>
-                                    </div>
+                    <form name="sentMessage" id="contactForm" novalidate>
+                        <input type="hidden" name="password" value="<?php echo $password; ?>" />
+                        <div class="row">
+                            <div class="col-md-6">
+                                <div class="form-group">
+                                    <label class="control-label" for="name">Name *</label>
+                                    <input type="text" class="form-control" id="name" name="name" required data-validation-required-message="Bitte deinen Namen eingeben.">
+                                    <p class="help-block"></p>
                                 </div>
-                                <div class="col-md-6">
-                                    <div class="form-group">
-                                        <textarea class="form-control" placeholder="Mitteilung" id="message" name="message"></textarea>
-                                        <p class="help-block text-danger"></p>
-                                    </div>
+                                <div class="form-group">
+                                    <label class="control-label" for="count">Anzahl Personen *</label>
+                                    <select class="form-control" id="count" name="count" required data-validation-required-message="Bitte die Anzahl Personen auswählen.">
+                                        <option value="">bitte auswählen</option>
+                                        <option value="1">alleine</option>
+                                        <option value="2">zu zweit</option>
+                                        <option value="3">zu dritt</option>
+                                        <option value="4">zu viert</option>
+                                        <option value="5">zu fünft</option>
+                                    </select>
+                                    <p class="help-block"></p>
                                 </div>
-                                <div class="clearfix"></div>
-                                <div class="col-lg-12 text-center">
-                                    <div id="submitMessage"></div>
-                                    <button type="submit" class="btn btn-xl"><i class="fa fa-paper-plane-o"></i> Senden</button>
+                                <div class="form-group">
+                                    <label class="control-label" for="email">Email *</label>
+                                    <input type="email" class="form-control" id="email" name="email" required data-validation-required-message="Bitte gib deine Email Adresse ein." data-validation-email-message="Da scheint was nicht zu stimmen.">
+                                    <p class="help-block"></p>
                                 </div>
                             </div>
-                        </form>
-                    <?php endif; ?>
-
-
-                <?php else: ?>
-
+                            <div class="col-md-6">
+                                <div class="form-group">
+                                    <label class="control-label" for="name">Mitteilung</label>
+                                    <textarea class="form-control" id="message" name="message"></textarea>
+                                    <p class="help-block"></p>
+                                </div>
+                            </div>
+                            <div class="clearfix"></div>
+                            <div class="col-lg-12 text-center">
+                                <div id="submitMessage"></div>
+                                <button type="submit" class="btn btn-xl"><i class="fa fa-paper-plane-o"></i> Senden</button>
+                            </div>
+                        </div>
+                    </form>
                 <?php endif; ?>
             </div>
         </div>
