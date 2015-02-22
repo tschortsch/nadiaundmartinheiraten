@@ -47,7 +47,7 @@ h6 {
 header {
     text-align: center;
     color: $text-primary-color;
-    background: url(../Images/login-bg.jpg) no-repeat center center scroll;
+    background: url(../Images/login-bg-small.jpg) no-repeat center center scroll;
     background-size: cover;
 
     .intro-text {
@@ -56,14 +56,14 @@ header {
 
         .intro-heading {
             font-family: $header-font-family;
-            font-size: 50px;
-            line-height: 60px;
+            font-size: 70px;
+            line-height: 80px;
             text-shadow: $text-shadow;
         }
         .intro-lead-in {
             font-family: $header-font-family;
-            font-size: 22px;
-            line-height: 22px;
+            font-size: 30px;
+            line-height: 30px;
             text-shadow: $text-shadow;
         }
     }

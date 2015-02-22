@@ -72,20 +72,20 @@ h6 {
 header {
   text-align: center;
   color: #ffffff;
-  background: url(../Images/login-bg.jpg) no-repeat center center scroll;
+  background: url(../Images/login-bg-small.jpg) no-repeat center center scroll;
   background-size: cover; }
   header .intro-text {
     padding-top: 100px;
     padding-bottom: 50px; }
     header .intro-text .intro-heading {
       font-family: "Great Vibes", "Helvetica Neue", Helvetica, Arial, cursive;
-      font-size: 50px;
-      line-height: 60px;
+      font-size: 70px;
+      line-height: 80px;
       text-shadow: 1px 1px 1px #323232; }
     header .intro-text .intro-lead-in {
       font-family: "Great Vibes", "Helvetica Neue", Helvetica, Arial, cursive;
-      font-size: 22px;
-      line-height: 22px;
+      font-size: 30px;
+      line-height: 30px;
       text-shadow: 1px 1px 1px #323232; }
   @media (min-width: 768px) {
     header .intro-text {

@@ -113,7 +113,7 @@ if(isset($_GET['subscription'])) {
         </div>
         <div class="row">
             <div class="col-md-5">
-                <img src="Resources/Images/login-bg.jpg" class="img-responsive" />
+                <img src="Resources/Images/login-bg-small.jpg" class="img-responsive" />
             </div>
             <div class="col-md-7">
                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit.</p>
