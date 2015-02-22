@@ -124,9 +124,18 @@ section {
     width: 80%;
 }
 
-.groomsmen-picture {
-    width: 150px;
-    height: 150px;
+#groomsmen {
+    h3 {
+        margin-top: 5px;
+    }
+    .groomsmen-picture {
+        width: 150px;
+        height: 150px;
+        margin-bottom: 15px;
+    }
+    .profile {
+        margin-bottom: 30px;
+    }
 }
 
 #signup {

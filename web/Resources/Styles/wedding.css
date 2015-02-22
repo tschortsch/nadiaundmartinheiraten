@@ -335,9 +335,14 @@ section {
 .google-map iframe {
   width: 80%; }
 
-.groomsmen-picture {
+#groomsmen h3 {
+  margin-top: 5px; }
+#groomsmen .groomsmen-picture {
   width: 150px;
-  height: 150px; }
+  height: 150px;
+  margin-bottom: 15px; }
+#groomsmen .profile {
+  margin-bottom: 30px; }
 
 #signup #message {
   height: 183px; }
