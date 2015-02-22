@@ -73,13 +73,16 @@ header {
       font-size: 90px; } }
 
 #loginform {
-  margin-top: 20px;
+  margin-top: 190px;
   background-color: rgba(255, 255, 255, 0.5);
   padding: 20px;
   border-radius: 10px; }
   #loginform .fa {
     color: #FF8C89;
     margin-right: 3px; }
+  @media (min-width: 768px) {
+    #loginform {
+      margin-top: 20px; } }
 
 #passwordStatus {
   padding: 3px; }
