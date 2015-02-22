@@ -72,10 +72,10 @@ if(isset($_GET['subscription'])) {
                     <a href="#page-top"></a>
                 </li>
                 <li>
-                    <a class="page-scroll" href="#thatsus" title="Das sind wir!"><i class="fa fa-venus-mars"></i><span class="visible-xs-inline"> Das sind wir!</span></a>
+                    <a class="page-scroll" href="#thatsus" title="Das sind wir"><i class="fa fa-venus-mars"></i><span class="visible-xs-inline"> Das sind wir</span></a>
                 </li>
                 <li>
-                    <a class="page-scroll" href="#information" title="Los mehr darüber"><i class="fa fa-info-circle"></i><span class="visible-xs-inline"> Los mehr darüber</span></a>
+                    <a class="page-scroll" href="#information" title="Wann & Wo"><i class="fa fa-info-circle"></i><span class="visible-xs-inline"> Wann & Wo</span></a>
                 </li>
                 <li>
                     <a class="page-scroll" href="#groomsmen" title="Trauzeugen"><i class="fa fa-users"></i><span class="visible-xs-inline"> Unsere Trauzeugen</span></a>
@@ -84,7 +84,7 @@ if(isset($_GET['subscription'])) {
                     <a class="page-scroll" href="#present" title="Geschenke"><i class="fa fa-gift"></i><span class="visible-xs-inline"> Geschenke</span></a>
                 </li>
                 <li>
-                    <a class="page-scroll" href="#signup" title="Jetzt anmelden!"><i class="fa fa-check-square-o"></i><span class="visible-xs-inline"> Jetzt anmelden!</span></a>
+                    <a class="page-scroll" href="#signup" title="Bin dabei!"><i class="fa fa-check-square-o"></i><span class="visible-xs-inline"> Bin dabei!</span></a>
                 </li>
             </ul>
         </div>
@@ -289,7 +289,7 @@ if(isset($_GET['subscription'])) {
                                 <div class="form-group">
                                     <label class="control-label" for="name">Name *</label>
                                     <input type="text" class="form-control" id="name" name="name" required data-validation-required-message="Bitte deinen Namen eingeben.">
-                                    <p class="help-block">Damit uns die Planung einfacher fällt, tragt doch bitte die vollständigen Namen von allen Gästen ein.</p>
+                                    <p class="help-block">Damit uns die Planung einfacher fällt, trag doch bitte die vollständigen Namen von allen Gästen ein.</p>
                                 </div>
                                 <div class="form-group">
                                     <label class="control-label" for="email">Email *</label>
