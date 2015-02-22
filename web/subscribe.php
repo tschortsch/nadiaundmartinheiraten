@@ -15,7 +15,7 @@ if($view == 'apero') {
         empty($_POST['email']) ||
         !filter_var($_POST['email'], FILTER_VALIDATE_EMAIL))
     {
-        header("Location: wedding.php?password=" . $password . "&subscription=error");
+        return false;
     }
 
     $name = $_POST['name'];
@@ -60,11 +60,11 @@ if($view == 'apero') {
         );
         $async = false;
         $result = $mandrill->messages->send($message, $async);
-        header("Location: wedding.php?password=" . $password . "&subscription=success");
+        return true;
     } catch(Mandrill_Error $e) {
         // Mandrill errors are thrown as exceptions
         echo 'A mandrill error occurred: ' . get_class($e) . ' - ' . $e->getMessage();
-        header("Location: wedding.php?password=" . $password . "&subscription=error");
+        return false;
     }
 }
 

@@ -223,7 +223,7 @@ if(isset($_GET['subscription'])) {
                         <?php if($subscription_result == 'error'): ?>
                             <p class="text-danger lead text-center">Da hat etwas nicht geklappt. Versuchs doch noch einmal!</p>
                         <?php endif; ?>
-                        <form name="sentMessage" id="subscribeForm" action="subscribe.php" method="post" novalidate>
+                        <form name="sentMessage" id="contactForm" novalidate>
                             <input type="hidden" name="password" value="<?php echo $password; ?>" />
                             <div class="row">
                                 <div class="col-md-6">
@@ -233,7 +233,7 @@ if(isset($_GET['subscription'])) {
                                     </div>
                                     <div class="form-group">
                                         <select class="form-control" id="count" name="count" required data-validation-required-message="Bitte die Anzahl Personen auswählen.">
-                                            <option value="0" disabled>Anzahl Personen</option>
+                                            <option value="">Anzahl Personen</option>
                                             <option value="1">alleine</option>
                                             <option value="2">zu zweit</option>
                                             <option value="3">zu dritt</option>
@@ -243,19 +243,19 @@ if(isset($_GET['subscription'])) {
                                         <p class="help-block text-danger"></p>
                                     </div>
                                     <div class="form-group">
-                                        <input type="email" class="form-control" placeholder="Email *" id="email" name="email" required data-validation-required-message="Bitte gib deine Email Adresse ein.">
+                                        <input type="email" class="form-control" placeholder="Email *" id="email" name="email" required data-validation-required-message="Bitte gib deine Email Adresse ein." data-validation-email-message="Da scheint was nicht zu stimmen.">
                                         <p class="help-block text-danger"></p>
                                     </div>
                                 </div>
                                 <div class="col-md-6">
                                     <div class="form-group">
-                                        <textarea class="form-control" placeholder="Mitteilung *" id="message" name="message"></textarea>
+                                        <textarea class="form-control" placeholder="Mitteilung" id="message" name="message"></textarea>
                                         <p class="help-block text-danger"></p>
                                     </div>
                                 </div>
                                 <div class="clearfix"></div>
                                 <div class="col-lg-12 text-center">
-                                    <div id="success"></div>
+                                    <div id="submitMessage"></div>
                                     <button type="submit" class="btn btn-xl"><i class="fa fa-paper-plane-o"></i> Senden</button>
                                 </div>
                             </div>
@@ -293,6 +293,8 @@ if(isset($_GET['subscription'])) {
 <script src="//cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>
 <script src="Resources/JavaScripts/classie.js"></script>
 <script src="Resources/JavaScripts/cbpAnimatedHeader.js"></script>
+<script src="Resources/JavaScripts/jqBootstrapValidation.js"></script>
+<script src="Resources/JavaScripts/subscribe.js"></script>
 <script src="Resources/JavaScripts/base.js"></script>
 
 </body>
