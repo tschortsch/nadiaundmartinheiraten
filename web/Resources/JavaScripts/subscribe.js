@@ -11,6 +11,8 @@ $(function() {
             var email = $("input#email").val();
             var count = $("select#count").val();
             var message = $("textarea#message").val();
+            var password = $('input[name="password"]').val();
+            console.log(password);
             $.ajax({
                 url: "subscribe.php",
                 type: "POST",
@@ -18,33 +20,32 @@ $(function() {
                     name: name,
                     count: count,
                     email: email,
-                    message: message
+                    message: message,
+                    password: password
                 },
-                cache: false,
-                success: function() {
-                    // Success message
-                    $('#submitMessage').html("<div class='alert alert-success'>");
-                    $('#submitMessage > .alert-success').html("<button type='button' class='close' data-dismiss='alert' aria-hidden='true'>&times;")
-                        .append("</button>");
-                    $('#submitMessage > .alert-success')
-                        .append("<strong>Deine Anmeldung wurde versendet. </strong>");
-                    $('#submitMessage > .alert-success')
-                        .append('</div>');
-
-                    //clear all fields
-                    $('#contactForm').trigger("reset");
-                },
-                error: function() {
-                    // Fail message
-                    $('#submitMessage').html("<div class='alert alert-danger'>");
-                    $('#submitMessage > .alert-danger').html("<button type='button' class='close' data-dismiss='alert' aria-hidden='true'>&times;")
-                        .append("</button>");
-                    $('#submitMessage > .alert-danger').append("<strong>Hmm, da hat etwas nicht funktioniert. Versuchs doch noch einmal!");
-                    $('#submitMessage > .alert-danger').append('</div>');
-                    //clear all fields
-                    $('#contactForm').trigger("reset");
-                }
+                cache: false
             })
+            .done(function() {// Success message
+                $('#submitMessage').html("<div class='alert alert-success'>");
+                $('#submitMessage > .alert-success').html("<button type='button' class='close' data-dismiss='alert' aria-hidden='true'>&times;")
+                    .append("</button>");
+                $('#submitMessage > .alert-success')
+                    .append("<strong>Deine Anmeldung wurde versendet. </strong>");
+                $('#submitMessage > .alert-success')
+                    .append('</div>');
+            })
+            .fail(function() {
+                // Fail message
+                $('#submitMessage').html("<div class='alert alert-danger'>");
+                $('#submitMessage > .alert-danger').html("<button type='button' class='close' data-dismiss='alert' aria-hidden='true'>&times;")
+                    .append("</button>");
+                $('#submitMessage > .alert-danger').append("<strong>Hmm, da hat etwas nicht funktioniert. Versuchs doch noch einmal!");
+                $('#submitMessage > .alert-danger').append('</div>');
+            })
+            .always(function() {
+                //clear all fields
+                $('#contactForm').trigger("reset");
+            });
         },
         filter: function() {
             return $(this).is(":visible");
