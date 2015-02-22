@@ -1,18 +1,17 @@
 $(function() {
     $("input,select,textarea").not("[type=submit]").jqBootstrapValidation({
         preventSubmit: true,
-        submitError: function($form, event, errors) {
-            // additional error messages or events
-        },
         submitSuccess: function($form, event) {
-            event.preventDefault(); // prevent default submit behaviour
+            // prevent default submit behaviour
+            event.preventDefault();
+
             // get values from FORM
             var name = $("input#name").val();
             var email = $("input#email").val();
             var count = $("select#count").val();
             var message = $("textarea#message").val();
             var password = $('input[name="password"]').val();
-            console.log(password);
+
             $.ajax({
                 url: "subscribe.php",
                 type: "POST",
