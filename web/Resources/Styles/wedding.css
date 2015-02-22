@@ -335,10 +335,8 @@ section {
   width: 150px;
   height: 150px; }
 
-#signup #contactForm.apero #message {
+#signup #message {
   height: 183px; }
-#signup #contactForm.essen #message {
-  height: 395px; }
 
 .btn-xl {
   padding: 10px 25px;
