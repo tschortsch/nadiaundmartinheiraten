@@ -365,12 +365,13 @@ section {
 
 footer {
   background-color: #363636;
-  color: #ffffff;
+  color: #BDBDBD;
   padding: 25px 0;
   text-align: center; }
-  footer span.copyright {
-    text-transform: uppercase;
-    text-transform: none;
-    line-height: 40px; }
+  footer a:hover,
+  footer a:focus,
+  footer a:active,
+  footer a.active {
+    color: #ffffff; }
 
 /*# sourceMappingURL=wedding.css.map */

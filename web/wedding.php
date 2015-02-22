@@ -375,7 +375,7 @@ if(isset($_GET['subscription'])) {
     <div class="container">
         <div class="row">
             <div class="col-md-12">
-                <span class="copyright">&copy; 2015 built with <i class="fa fa-heart"></i> by Jürg Hunziker</span>
+                <span class="copyright">&copy; <span class="current-year">2015</span> <i class="fa fa-code"></i> with <i class="fa fa-heart"></i> by <a href="http://juerghunziker.ch" target="_blank">Jürg Hunziker</a></span>
             </div>
         </div>
     </div>

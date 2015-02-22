@@ -170,13 +170,14 @@ section {
 
 footer {
     background-color: #363636;
-    color: #ffffff;
+    color: $footer-color;
     padding: 25px 0;
     text-align: center;
 
-    span.copyright {
-        text-transform: uppercase;
-        text-transform: none;
-        line-height: 40px;
+    a:hover,
+    a:focus,
+    a:active,
+    a.active {
+        color: #ffffff;
     }
 }
