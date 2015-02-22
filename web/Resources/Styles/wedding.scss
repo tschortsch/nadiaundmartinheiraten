@@ -47,7 +47,10 @@ h6 {
 header {
     text-align: center;
     color: $text-primary-color;
-    background: url(../Images/header-bg.jpg) no-repeat center center scroll;
+    background: url(../Images/header-bg.jpg) no-repeat left center scroll;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
     background-size: cover;
 
     .intro-text {
