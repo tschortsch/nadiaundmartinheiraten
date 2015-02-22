@@ -342,16 +342,18 @@ section {
 #signup #message {
   height: 183px; }
 
-.btn-xl {
-  padding: 10px 25px;
-  font-size: 16px;
+.btn-primary {
   color: #ffffff;
-  background-color: #9869B0; }
-  .btn-xl .fa {
+  background-color: #9869B0;
+  border: none; }
+  .btn-primary .fa {
     margin-right: 5px; }
-  .btn-xl:hover, .btn-xl:focus, .btn-xl:active, .btn-xl.active {
+  .btn-primary:hover, .btn-primary:focus, .btn-primary:active, .btn-primary.active {
     color: #ffffff;
     background-color: #7f4f97; }
+
+.btn-lg {
+  padding: 10px 25px; }
 
 footer {
   background-color: #363636;

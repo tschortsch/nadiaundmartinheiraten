@@ -72,7 +72,7 @@ if(isset($_GET['subscription'])) {
                     <a href="#page-top"></a>
                 </li>
                 <li>
-                    <a class="page-scroll" href="#thatsus" title="Das sind wir!"><i class="fa fa-heart"></i><span class="visible-xs-inline"> Das sind wir!</span></a>
+                    <a class="page-scroll" href="#thatsus" title="Das sind wir!"><i class="fa fa-venus-mars"></i><span class="visible-xs-inline"> Das sind wir!</span></a>
                 </li>
                 <li>
                     <a class="page-scroll" href="#information" title="Los mehr darüber"><i class="fa fa-info-circle"></i><span class="visible-xs-inline"> Los mehr darüber</span></a>
@@ -108,7 +108,7 @@ if(isset($_GET['subscription'])) {
     <div class="container">
         <div class="row">
             <div class="col-sm-12 text-center">
-                <h2 class="section-heading"><i class="fa fa-heart"></i> Das sind wir</h2>
+                <h2 class="section-heading"><i class="fa fa-venus-mars"></i> Das sind wir</h2>
             </div>
         </div>
         <div class="row">
@@ -218,7 +218,7 @@ if(isset($_GET['subscription'])) {
             <div class="col-sm-12 text-center">
                 <p>Für alle Ideenlosen haben wir uns fleissig Gedanken gemacht, um euch die Suche nach einem passenden Geschenk zu erleichtern. Mit einem Klick auf den folgenden Link gelangt ihr auf unsere Wunschliste.</p>
 
-                <a href="http://9gag.com" class="btn btn-primary btn-lg" role="button"><i class="fa fa-shopping-cart"></i> Spendenportal</a>
+                <a href="http://9gag.com" class="btn btn-primary btn-lg" role="button"><i class="fa fa-shopping-cart"></i> Auf zur Wunschliste</a>
             </div>
         </div>
     </div>
@@ -272,7 +272,7 @@ if(isset($_GET['subscription'])) {
                             <div class="clearfix"></div>
                             <div class="col-lg-12 text-center">
                                 <div id="submitMessage"></div>
-                                <button type="submit" class="btn btn-xl"><i class="fa fa-paper-plane-o"></i> Senden</button>
+                                <button type="submit" class="btn btn-primary btn-lg"><i class="fa fa-paper-plane-o"></i> Senden</button>
                             </div>
                         </div>
                     </form>
@@ -365,7 +365,7 @@ if(isset($_GET['subscription'])) {
                             <div class="clearfix"></div>
                             <div class="col-lg-12 text-center">
                                 <div id="submitMessage"></div>
-                                <button type="submit" class="btn btn-xl"><i class="fa fa-paper-plane-o"></i> Senden</button>
+                                <button type="submit" class="btn btn-primary btn-lg"><i class="fa fa-paper-plane-o"></i> Senden</button>
                             </div>
                         </div>
                     </form>
