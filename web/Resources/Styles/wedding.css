@@ -335,11 +335,18 @@ section {
   width: 150px;
   height: 150px; }
 
+#signup #contactForm.apero #message {
+  height: 183px; }
+#signup #contactForm.essen #message {
+  height: 395px; }
+
 .btn-xl {
   padding: 10px 25px;
   font-size: 16px;
   color: #ffffff;
   background-color: #9869B0; }
+  .btn-xl .fa {
+    margin-right: 5px; }
   .btn-xl:hover, .btn-xl:focus, .btn-xl:active, .btn-xl.active {
     color: #ffffff;
     background-color: #7f4f97; }

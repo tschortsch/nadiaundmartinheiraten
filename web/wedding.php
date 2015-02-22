@@ -103,7 +103,7 @@ if(isset($_GET['subscription'])) {
     </div>
 </header>
 
-<!-- Gallery -->
+<!-- Thats us -->
 <section id="thatsus">
     <div class="container">
         <div class="row">
@@ -143,18 +143,20 @@ if(isset($_GET['subscription'])) {
                     </div>
                 </div>
             </li>
-            <li class="timeline-inverted">
-                <div class="timeline-badge danger"><i class="fa fa-cutlery"></i></div>
-                <div class="timeline-panel">
-                    <div class="timeline-heading">
-                        <h2 class="timeline-title">Essen & Feier</h2>
+            <?php if($view == 'essen'): ?>
+                <li class="timeline-inverted">
+                    <div class="timeline-badge danger"><i class="fa fa-cutlery"></i></div>
+                    <div class="timeline-panel">
+                        <div class="timeline-heading">
+                            <h2 class="timeline-title">Essen & Feier</h2>
+                        </div>
+                        <div class="timeline-body">
+                            <p><i class="fa fa-clock-o"></i> ab 18:00 Uhr</p>
+                            <p><i class="fa fa-map-marker"></i> im Dolder</p>
+                        </div>
                     </div>
-                    <div class="timeline-body">
-                        <p><i class="fa fa-clock-o"></i> ab 18:00 Uhr</p>
-                        <p><i class="fa fa-map-marker"></i> im Dolder</p>
-                    </div>
-                </div>
-            </li>
+                </li>
+            <?php endif; ?>
         </ul>
     </div>
 </section>
@@ -216,8 +218,8 @@ if(isset($_GET['subscription'])) {
         </div>
         <div class="row">
             <div class="col-lg-12">
-                <?php if($view == 'apero'): ?>
-                    <form name="sentMessage" id="contactForm" novalidate>
+                <?php if($view == 'apero') { ?>
+                    <form name="sentMessage" id="contactForm" class="apero" novalidate>
                         <input type="hidden" name="password" value="<?php echo $password; ?>" />
                         <div class="row">
                             <div class="col-md-6">
@@ -258,7 +260,84 @@ if(isset($_GET['subscription'])) {
                             </div>
                         </div>
                     </form>
-                <?php endif; ?>
+                <?php } else { ?>
+                    <form name="sentMessage" id="contactForm" class="essen" novalidate>
+                        <input type="hidden" name="password" value="<?php echo $password; ?>" />
+                        <div class="row">
+                            <div class="col-md-6">
+                                <div class="form-group">
+                                    <label class="control-label" for="count">Anzahl Personen *</label>
+                                    <select class="form-control" id="count" name="count" required data-validation-required-message="Bitte die Anzahl Personen auswählen.">
+                                        <option value="">bitte auswählen</option>
+                                        <option value="1">alleine</option>
+                                        <option value="2">zu zweit</option>
+                                    </select>
+                                    <p class="help-block"></p>
+                                </div>
+                                <div class="form-group">
+                                    <label class="control-label" for="name">Name *</label>
+                                    <input type="text" class="form-control" id="name" name="name" required data-validation-required-message="Bitte deinen Namen eingeben.">
+                                    <p class="help-block"></p>
+                                </div>
+                                <div class="form-group">
+                                    <label class="control-label" for="email">Email *</label>
+                                    <input type="email" class="form-control" id="email" name="email" required data-validation-required-message="Bitte gib deine Email Adresse ein." data-validation-email-message="Da scheint was nicht zu stimmen.">
+                                    <p class="help-block"></p>
+                                </div>
+                                <div class="form-group">
+                                    <label class="control-label" for="attendingApero">Bin dabei bei *</label>
+                                    <div class="radio">
+                                        <label>
+                                            <input type="radio" name="attending" id="attendingApero" value="Apéro" required data-validation-required-message="Bitte wähle bei was du dabei bis.">
+                                            Apéro
+                                        </label>
+                                    </div>
+                                    <div class="radio">
+                                        <label>
+                                            <input type="radio" name="attending" id="attendingDinner" value="Essen" required data-validation-required-message="Bitte wähle bei was du dabei bis.">
+                                            Essen
+                                        </label>
+                                    </div>
+                                    <div class="radio">
+                                        <label>
+                                            <input type="radio" name="attending" id="attendingAperoAndDinner" value="Apéro und Essen" required data-validation-required-message="Bitte wähle bei was du dabei bis.">
+                                            Apéro und Essen
+                                        </label>
+                                    </div>
+                                    <p class="help-block"></p>
+                                </div>
+                                <div class="form-group">
+                                    <label class="control-label" for="mealtypeMeat">Ich esse *</label>
+                                    <div class="radio">
+                                        <label>
+                                            <input type="radio" name="mealtype" id="mealtypeMeat" value="Fleisch" required data-validation-required-message="Bitte wähle was du gerne isst.">
+                                            Fleisch
+                                        </label>
+                                    </div>
+                                    <div class="radio">
+                                        <label>
+                                            <input type="radio" name="mealtype" id="mealtypeVegetarian" value="Vegetarisch" required data-validation-required-message="Bitte wähle was du gerne isst.">
+                                            Vegetarisch
+                                        </label>
+                                    </div>
+                                    <p class="help-block"></p>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="form-group">
+                                    <label class="control-label" for="name">Mitteilung</label>
+                                    <textarea class="form-control" id="message" name="message"></textarea>
+                                    <p class="help-block"></p>
+                                </div>
+                            </div>
+                            <div class="clearfix"></div>
+                            <div class="col-lg-12 text-center">
+                                <div id="submitMessage"></div>
+                                <button type="submit" class="btn btn-xl"><i class="fa fa-paper-plane-o"></i> Senden</button>
+                            </div>
+                        </div>
+                    </form>
+                <?php } ?>
             </div>
         </div>
     </div>

@@ -10,6 +10,8 @@ $(function() {
             var email = $("input#email").val();
             var count = $("select#count").val();
             var message = $("textarea#message").val();
+            var attending = $('input:radio[name="attending"]:checked').val();
+            var mealtype = $('input:radio[name="mealtype"]:checked').val();
             var password = $('input[name="password"]').val();
 
             $.ajax({
@@ -19,6 +21,8 @@ $(function() {
                     name: name,
                     count: count,
                     email: email,
+                    attending: attending,
+                    mealtype: mealtype,
                     message: message,
                     password: password
                 },
