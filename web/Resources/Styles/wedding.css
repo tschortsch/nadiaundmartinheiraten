@@ -72,15 +72,15 @@ h6 {
 header {
   text-align: center;
   color: #ffffff;
-  background: url(../Images/login-bg-small.jpg) no-repeat center center scroll;
+  background: url(../Images/DSC_0774.JPG) no-repeat center center scroll;
   background-size: cover; }
   header .intro-text {
     padding-top: 100px;
     padding-bottom: 50px; }
     header .intro-text .intro-heading {
       font-family: "Great Vibes", "Helvetica Neue", Helvetica, Arial, cursive;
-      font-size: 70px;
-      line-height: 80px;
+      font-size: 60px;
+      line-height: 70px;
       text-shadow: 1px 1px 1px #323232; }
     header .intro-text .intro-lead-in {
       font-family: "Great Vibes", "Helvetica Neue", Helvetica, Arial, cursive;
@@ -169,7 +169,8 @@ section {
     font-size: 28px; }
     section h3.section-subheading {
       margin-bottom: 75px;
-      font-size: 26px; }
+      font-size: 26px;
+      line-height: 40px; }
   @media (min-width: 768px) {
     section {
       padding: 120px 0; }
@@ -331,6 +332,9 @@ section {
     border-right-width: 14px;
     left: -14px;
     right: auto; } }
+.google-map iframe {
+  width: 80%; }
+
 .groomsmen-picture {
   width: 150px;
   height: 150px; }

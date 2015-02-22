@@ -116,7 +116,12 @@ if(isset($_GET['subscription'])) {
                 <img src="Resources/Images/login-bg-small.jpg" class="img-responsive" />
             </div>
             <div class="col-md-7">
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit.</p>
+                <p>
+                    Vor etwas mehr als einem Jahr erlebten wir in Hawaii einen traumhaften Urlaub. Nach einer Whalewatchingtour, schwimmen mit Schildköten und einem wunderschönen Sonnenuntergang fiel Martin auf Maui in den Sand auf die Knie.
+                </p>
+                <p>
+                    Nun nach über neun Jahren trauen wir uns und versprechen uns den Weg nun offiziell gemeinsam zu gehen.
+                </p>
             </div>
         </div>
     </div>
@@ -140,6 +145,8 @@ if(isset($_GET['subscription'])) {
                     <div class="timeline-body">
                         <p><i class="fa fa-clock-o"></i> ab 14:30 Uhr</p>
                         <p><i class="fa fa-map-marker"></i> im Restaurant Römerpark</p>
+                        <br />
+                        <p>Im engsten Familienkreis werden wir uns auf dem Standesamt das Ja-Wort geben. Um mit euch allen darauf anzustossen, laden wir euch herzlich zum Apéro im ……………………………………… ein.</p>
                     </div>
                 </div>
             </li>
@@ -151,13 +158,22 @@ if(isset($_GET['subscription'])) {
                             <h2 class="timeline-title">Essen & Feier</h2>
                         </div>
                         <div class="timeline-body">
-                            <p><i class="fa fa-clock-o"></i> ab 18:00 Uhr</p>
+                            <p><i class="fa fa-clock-o"></i> ab 17:00 Uhr</p>
                             <p><i class="fa fa-map-marker"></i> im Dolder</p>
+                            <br />
+                            <p>Mit den geladenen Gästen werden wir uns anschliessend um ca. 17.00 Uhr aus dem grossen Rahmen verabschieden und im kleineren Rahmen mit Privatautos auf den Weg ins ………………………………… machen. Dort erwartet euch ein fröhliches Abendessen mit gemütlichem Beisammensein.</p>
                         </div>
                     </div>
                 </li>
             <?php endif; ?>
         </ul>
+        <div class="row">
+            <div class="col-sm-12 text-center">
+                <div class="google-map">
+                    <iframe src="https://mapsengine.google.com/map/embed?mid=zCFn7eLFNTss.kr-VbkJSUoes" width="640" height="480" frameBorder="0"></iframe>
+                </div>
+            </div>
+        </div>
     </div>
 </section>
 
@@ -174,8 +190,8 @@ if(isset($_GET['subscription'])) {
                 <img src="//scontent-fra.xx.fbcdn.net/hphotos-xap1/t31.0-8/1496105_10152155528894110_1616484322_o.jpg" class="groomsmen-picture img-circle">
             </div>
             <div class="col-sm-8">
-                <h3>Josiane Tenüd</h3>
-                <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit.</p>
+                <h3>Josi</h3>
+                <p class="text-muted">Nach dem gemeinsamen Studium mit Nadia meisterten die zwei frischgebackenen Lehrerinnen die ersten Berufsjahre gemeinsam mit Vorbereitungen in den Ferien, wobei natürlich auch ein Tag plaudern bei einem Foxtrail dazugehörte.</p>
             </div>
         </div>
         <div class="row">
@@ -183,8 +199,8 @@ if(isset($_GET['subscription'])) {
                 <img src="//www.gravatar.com/avatar/41c42656cf67fce9e98e1053b3c0c889?s=340" class="groomsmen-picture img-circle">
             </div>
             <div class="col-sm-8">
-                <h3>Jürg Hunziker</h3>
-                <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit.</p>
+                <h3>Jürg</h3>
+                <p class="text-muted">Den Ursprung unserer Beziehung haben wir nur ihm zu verdanken. Als Klassenkamerad von Martin und Bruder von Nadia war im Ausgang zu dritt oft nicht klar, ob nun Nadia oder Jürg das dritte Rad am Wagen war.</p>
             </div>
         </div>
     </div>
@@ -200,7 +216,9 @@ if(isset($_GET['subscription'])) {
         </div>
         <div class="row">
             <div class="col-sm-12 text-center">
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit.</p>
+                <p>Für alle Ideenlosen haben wir uns fleissig Gedanken gemacht, um euch die Suche nach einem passenden Geschenk zu erleichtern. Mit einem Klick auf den folgenden Link gelangt ihr auf unsere Wunschliste.</p>
+
+                <a href="http://9gag.com" class="btn btn-primary btn-lg" role="button"><i class="fa fa-shopping-cart"></i> Spendenportal</a>
             </div>
         </div>
     </div>
@@ -211,9 +229,7 @@ if(isset($_GET['subscription'])) {
         <div class="row">
             <div class="col-lg-12 text-center">
                 <h2 class="section-heading"><i class="fa fa-check-square-o"></i> Bin dabei</h2>
-                <?php if($subscription_result != 'success'): ?>
-                    <h3 class="section-subheading text-muted">Bitte meldet euch bis am 20. Mai 2015 an.</h3>
-                <?php endif; ?>
+                <h3 class="section-subheading text-muted">Wir würden uns sehr freuen, wenn ihr diesen speziellen Tag mit uns verbringt.<br />Bitte meldet euch bis zum 16. Mai 2015 an.</h3>
             </div>
         </div>
         <div class="row">
@@ -277,7 +293,7 @@ if(isset($_GET['subscription'])) {
                                 <div class="form-group">
                                     <label class="control-label" for="name">Name *</label>
                                     <input type="text" class="form-control" id="name" name="name" required data-validation-required-message="Bitte deinen Namen eingeben.">
-                                    <p class="help-block"></p>
+                                    <p class="help-block">Damit uns die Planung einfacher fällt, tragt doch bitte die vollständigen Namen von allen Gästen ein.</p>
                                 </div>
                                 <div class="form-group">
                                     <label class="control-label" for="email">Email *</label>
@@ -318,6 +334,22 @@ if(isset($_GET['subscription'])) {
                                         <label>
                                             <input type="radio" name="mealtype" id="mealtypeVegetarian" value="Vegetarisch" required data-validation-required-message="Bitte wähle was du gerne isst.">
                                             Vegetarisch
+                                        </label>
+                                    </div>
+                                    <p class="help-block"></p>
+                                </div>
+                                <div class="form-group">
+                                    <label class="control-label" for="travelByCar">Ich reise an mit *</label>
+                                    <div class="radio">
+                                        <label>
+                                            <input type="radio" name="travelBy" id="travelByCar" value="Privatauto" required data-validation-required-message="Bitte wähle wie du anreist.">
+                                            Privatauto
+                                        </label>
+                                    </div>
+                                    <div class="radio">
+                                        <label>
+                                            <input type="radio" name="travelBy" id="travelByPublicTransportation" value="Öffentlicher Verkehr" required data-validation-required-message="Bitte wähle wie du anreist.">
+                                            Öffentlicher Verkehr
                                         </label>
                                     </div>
                                     <p class="help-block"></p>

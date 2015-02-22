@@ -42,7 +42,8 @@ if($view == 'apero') {
         empty($_POST['email']) ||
         !filter_var($_POST['email'], FILTER_VALIDATE_EMAIL) ||
         empty($_POST['attending']) ||
-        empty($_POST['mealtype']))
+        empty($_POST['mealtype']) ||
+        empty($_POST['travelBy']))
     {
         header('HTTP/1.1 400 Bad Request');
         return false;
@@ -53,11 +54,12 @@ if($view == 'apero') {
     $email = $_POST['email'];
     $attending = $_POST['attending'];
     $mealtype = $_POST['mealtype'];
+    $travelBy = $_POST['travelBy'];
     $message = $_POST['message'];
 
     // Create the email and send the message
     $email_body_text = "Das Formular auf der Hochzeitswebseite wurde ausgefüllt!\n\n";
-    $email_body_text .= "Anzahl Personen: " . $count . "\nName: " . $name . "\nEmail: ". $email . "\nBin dabei bei: " . $attending . "\nIch esse:" . $mealtype . "\nMessage:\n" . $message;
+    $email_body_text .= "Anzahl Personen: " . $count . "\nName: " . $name . "\nEmail: ". $email . "\nBin dabei bei: " . $attending . "\nIch esse: " . $mealtype . "\nIch reise an mit: " . $travelBy . "\nMessage:\n" . $message;
     $email_body_html = "<p>Das Formular auf der Hochzeitswebseite wurde ausgefüllt!</p>";
     $email_body_html .= '
         <table cellpadding="3">
@@ -66,6 +68,7 @@ if($view == 'apero') {
             <tr><th style="text-align: right;">Email:</th><td>' . $email . '</td></tr>
             <tr><th style="text-align: right;">Bin dabei bei:</th><td>' . $attending . '</td></tr>
             <tr><th style="text-align: right;">Ich esse:</th><td>' . $mealtype . '</td></tr>
+            <tr><th style="text-align: right;">Ich reise an mit:</th><td>' . $travelBy . '</td></tr>
             <tr><th style="text-align: right; vertical-align: top;">Mitteilung:</th><td>' . nl2br($message) . '</td></tr>
         </table>';
 }

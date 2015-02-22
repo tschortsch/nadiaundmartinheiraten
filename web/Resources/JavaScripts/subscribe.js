@@ -12,6 +12,7 @@ $(function() {
             var message = $("textarea#message").val();
             var attending = $('input:radio[name="attending"]:checked').val();
             var mealtype = $('input:radio[name="mealtype"]:checked').val();
+            var travelBy = $('input:radio[name="travelBy"]:checked').val();
             var password = $('input[name="password"]').val();
 
             $.ajax({
@@ -23,6 +24,7 @@ $(function() {
                     email: email,
                     attending: attending,
                     mealtype: mealtype,
+                    travelBy: travelBy,
                     message: message,
                     password: password
                 },
