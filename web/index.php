@@ -56,9 +56,8 @@ $wrongpassword = isset($_GET['wrongpassword']) && $_GET['wrongpassword'] == 1;
             <form id="loginform" action="wedding.php" method="post">
                 <div class="form-group <?php echo $wrongpassword ? 'has-error has-feedback' : ''; ?>">
                     <label class="sr-only" for="password">Passwort</label>
-                    <input type="password" class="form-control" id="password" name="password" placeholder="Passwort" aria-describedby="passwordStatus">
+                    <input type="password" class="form-control" id="password" name="password" placeholder="Passwort">
                     <?php if($wrongpassword) { ?>
-                        <span class="glyphicon glyphicon-remove form-control-feedback" aria-hidden="true"></span>
                         <div id="passwordStatus" class="text-danger">Da hast du dich wohl vertippt. Versuchs doch nochmals!</div>
                     <?php } ?>
                 </div>
