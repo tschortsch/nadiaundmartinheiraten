@@ -12,8 +12,16 @@ $wrongpassword = isset($_GET['wrongpassword']) && $_GET['wrongpassword'] == 1;
     <meta name="description" content="Wedding page of Nadia und Martin">
     <meta name="author" content="Jürg Hunziker">
 
-    <link rel="icon" sizes="192x192" href="Resources/Images/favicon.png">
+    <link rel="shortcut icon" href="Resources/Images/favicon-128px.png">
+    <link rel="icon" sizes="128x128" href="Resources/Images/favicon-128px.png">
+    <link rel="icon" sizes="192x192" href="Resources/Images/favicon-192px.png">
     <title>Nadia & Martin heiraten!</title>
+
+    <!-- Android specific -->
+    <meta name="theme-color" content="#9869B0">
+
+    <!-- iOS specific -->
+    <link rel="apple-touch-icon-precomposed" sizes="128x128" href="Resources/Images/favicon-128px.png">
 
     <!-- Bootstrap -->
     <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css">
