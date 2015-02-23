@@ -1,0 +1,15 @@
+::-moz-selection {
+    background: #fee5fc;
+}
+
+::selection {
+    background: #fee5fc;
+}
+
+img::selection {
+    background: 0 0;
+}
+
+img::-moz-selection {
+    background: 0 0;
+}
