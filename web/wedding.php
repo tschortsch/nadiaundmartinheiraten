@@ -82,7 +82,7 @@ if(isset($_GET['subscription'])) {
                     <a class="page-scroll" href="#thatsus" title="Das sind wir"><i class="fa fa-venus-mars"></i><span class="visible-xs-inline"> Das sind wir</span></a>
                 </li>
                 <li>
-                    <a class="page-scroll" href="#information" title="Wann & Wo"><i class="fa fa-info-circle"></i><span class="visible-xs-inline"> Wann & Wo</span></a>
+                    <a class="page-scroll" href="#information" title="Wann & Wo"><i class="fa fa-calendar"></i><span class="visible-xs-inline"> Wann & Wo</span></a>
                 </li>
                 <li>
                     <a class="page-scroll" href="#groomsmen" title="Trauzeugen"><i class="fa fa-users"></i><span class="visible-xs-inline"> Unsere Trauzeugen</span></a>
@@ -139,7 +139,7 @@ if(isset($_GET['subscription'])) {
     <div class="container">
         <div class="row">
             <div class="col-sm-12 text-center">
-                <h2 class="section-heading"><i class="fa fa-clock-o"></i> Wann & Wo</h2>
+                <h2 class="section-heading"><i class="fa fa-calendar"></i> Wann & Wo</h2>
             </div>
         </div>
         <ul class="timeline">
