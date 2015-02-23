@@ -69,7 +69,7 @@ if(isset($_GET['subscription'])) {
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
             </button>
-            <a class="navbar-brand page-scroll" href="#page-top">Nadia & Martin heiraten <i class="fa fa-heart-o"></i></a>
+            <a class="navbar-brand page-scroll" href="#page-top"><i class="fa fa-heart"></i> Nadia & Martin heiraten</a>
         </div>
 
         <!-- Collect the nav links, forms, and other content for toggling -->

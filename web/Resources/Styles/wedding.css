@@ -109,6 +109,8 @@ header {
     font-family: "Great Vibes", "Helvetica Neue", Helvetica, Arial, cursive;
     color: #ffffff;
     text-shadow: 1px 1px 1px #323232; }
+    .navbar-default .navbar-brand .fa {
+      margin-right: 5px; }
     .navbar-default .navbar-brand:hover, .navbar-default .navbar-brand:focus, .navbar-default .navbar-brand:active, .navbar-default .navbar-brand.active {
       color: #e6e6e6; }
   .navbar-default .navbar-collapse {
