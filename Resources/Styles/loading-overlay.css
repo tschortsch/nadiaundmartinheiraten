@@ -1,0 +1,47 @@
+.loadingOverlay {
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  height: 100%;
+  z-index: 1000;
+  display: table;
+  background: white; }
+  .loadingOverlay i.fa {
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+    font-size: 45px;
+    -webkit-animation: pulsing 1.2s infinite;
+    -moz-animation: pulsing 1.2s infinite;
+    animation: pulsing 1.2s infinite;
+    color: #FF8C89; }
+
+@-webkit-keyframes pulsing {
+  0% {
+    -webkit-transform: scale(0.1);
+    -ms-transform: scale(0.1);
+    transform: scale(0.1);
+    opacity: 0.0; }
+  50% {
+    opacity: 1; }
+  100% {
+    -webkit-transform: scale(1.2);
+    -ms-transform: scale(1.2);
+    transform: scale(1.2);
+    opacity: 0; } }
+@keyframes pulsing {
+  0% {
+    -webkit-transform: scale(0.1);
+    -ms-transform: scale(0.1);
+    transform: scale(0.1);
+    opacity: 0.0; }
+  50% {
+    opacity: 1; }
+  100% {
+    -webkit-transform: scale(1.2);
+    -ms-transform: scale(1.2);
+    transform: scale(1.2);
+    opacity: 0; } }
+
+/*# sourceMappingURL=loading-overlay.css.map */
