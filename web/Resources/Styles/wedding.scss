@@ -112,10 +112,6 @@ section {
         }
     }
 
-    .row img {
-        margin-bottom: 7px;
-    }
-
     @media(min-width:768px) {
         padding: 120px 0;
 
@@ -124,6 +120,19 @@ section {
         }
     }
 }
+
+.carousel-control.left {
+    background-image: none;
+    filter: none;
+}
+.carousel-control.right {
+    background-image: none;
+    filter: none;
+}
+#carousel-thatsus {
+    margin-bottom: 7px;
+}
+
 
 @import "timeline";
 .google-map iframe {

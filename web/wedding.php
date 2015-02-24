@@ -120,7 +120,39 @@ if(isset($_GET['subscription'])) {
         </div>
         <div class="row">
             <div class="col-md-5">
-                <img src="Resources/Images/login-bg-small.jpg" class="img-responsive" />
+                <div id="carousel-thatsus" class="carousel slide">
+                    <!-- Indicators -->
+                    <ol class="carousel-indicators">
+                        <li data-target="#carousel-thatsus" data-slide-to="0" class="active"></li>
+                        <li data-target="#carousel-thatsus" data-slide-to="1"></li>
+                    </ol>
+
+                    <!-- Wrapper for slides -->
+                    <div class="carousel-inner" role="listbox">
+                        <div class="item active">
+                            <img src="Resources/Images/login-bg-small.jpg" />
+                            <div class="carousel-caption">
+                                Wir beim ersten Treffen
+                            </div>
+                        </div>
+                        <div class="item">
+                            <img src="Resources/Images/login-bg-small.jpg" />
+                            <div class="carousel-caption">
+                                Wir beim nächsten Treffen
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Controls -->
+                    <a class="left carousel-control" href="#carousel-thatsus" role="button" data-slide="prev">
+                        <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+                        <span class="sr-only">Vorheriges Bild</span>
+                    </a>
+                    <a class="right carousel-control" href="#carousel-thatsus" role="button" data-slide="next">
+                        <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+                        <span class="sr-only">Nächstes Bild</span>
+                    </a>
+                </div>
             </div>
             <div class="col-md-7">
                 <p>

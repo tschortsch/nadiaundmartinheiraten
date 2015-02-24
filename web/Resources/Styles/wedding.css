@@ -176,13 +176,22 @@ section {
       margin-bottom: 75px;
       font-size: 26px;
       line-height: 40px; }
-  section .row img {
-    margin-bottom: 7px; }
   @media (min-width: 768px) {
     section {
       padding: 120px 0; }
       section h2.section-heading {
         font-size: 46px; } }
+
+.carousel-control.left {
+  background-image: none;
+  filter: none; }
+
+.carousel-control.right {
+  background-image: none;
+  filter: none; }
+
+#carousel-thatsus {
+  margin-bottom: 7px; }
 
 .timeline {
   list-style: none;
