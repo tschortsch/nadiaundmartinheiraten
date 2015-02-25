@@ -10,7 +10,9 @@ $wrongpassword = isset($_GET['wrongpassword']) && $_GET['wrongpassword'] == 1;
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
     <meta name="description" content="Wedding page of Nadia und Martin">
+    <meta name="keywords" content="Nadia, Martin, Hochzeit, wedding, Winterthur">
     <meta name="author" content="Jürg Hunziker">
+    <meta name="robots" content="index,follow">
 
     <link rel="shortcut icon" href="Resources/Images/favicon-128px.png">
     <link rel="icon" sizes="128x128" href="Resources/Images/favicon-128px.png">
