@@ -22,6 +22,8 @@ var cbpAnimatedHeader = (function() {
 				setTimeout( scrollPage, 250 );
 			}
 		}, false );
+        // set class on page load if scroll position is bigger than defined value
+        setTimeout( scrollPage, 800 );
 	}
 
 	function scrollPage() {
