@@ -349,7 +349,8 @@ section {
     left: -14px;
     right: auto; } }
 .google-map iframe {
-  width: 80%; }
+  width: 80%;
+  border: 0; }
 
 #groomsmen h3 {
   margin-top: 5px; }

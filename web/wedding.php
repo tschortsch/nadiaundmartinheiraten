@@ -215,7 +215,7 @@ if(isset($_GET['subscription'])) {
                     <?php if($view == 'essen') { ?>
                         <iframe src="https://www.google.com/maps/d/embed?mid=zswo-lYKh418.k_tUdEgY60js" width="640" height="480" frameborder="0"></iframe>
                     <?php } else { ?>
-                        <iframe src="https://www.google.com/maps/d/embed?mid=zzc5UYgA2Iis.khnVmb0Y8ya0" width="640" height="480" frameborder="0"></iframe>
+                        <iframe src="https://www.google.com/maps/d/embed?mid=zzc5UYgA2Iis.khnVmb0Y8ya0&z=17" width="640" height="480" frameborder="0"></iframe>
                     <?php } ?>
                 </div>
             </div>
