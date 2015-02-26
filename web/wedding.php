@@ -212,7 +212,11 @@ if(isset($_GET['subscription'])) {
         <div class="row">
             <div class="col-sm-12 text-center">
                 <div class="google-map">
-                    <iframe src="https://mapsengine.google.com/map/embed?mid=zCFn7eLFNTss.kr-VbkJSUoes" width="640" height="480" frameBorder="0"></iframe>
+                    <?php if($view == 'essen') { ?>
+                        <iframe src="https://www.google.com/maps/d/embed?mid=zswo-lYKh418.k_tUdEgY60js" width="640" height="480" frameborder="0"></iframe>
+                    <?php } else { ?>
+                        <iframe src="https://www.google.com/maps/d/embed?mid=zzc5UYgA2Iis.khnVmb0Y8ya0" width="640" height="480" frameborder="0"></iframe>
+                    <?php } ?>
                 </div>
             </div>
         </div>
