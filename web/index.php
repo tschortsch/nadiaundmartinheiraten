@@ -13,6 +13,7 @@ $wrongpassword = isset($_GET['wrongpassword']) && $_GET['wrongpassword'] == 1;
     <meta name="keywords" content="Nadia, Martin, Hochzeit, wedding, Winterthur">
     <meta name="author" content="Jürg Hunziker">
     <meta name="robots" content="index,follow">
+    <meta name="google-site-verification" content="f898ASxu2Nv4DsSM-YSAkCVGFK6KUrrVMCa88IXUrsI" />
 
     <link rel="shortcut icon" href="Resources/Images/favicon-128px.png">
     <link rel="icon" sizes="128x128" href="Resources/Images/favicon-128px.png">
