@@ -240,14 +240,14 @@ if(isset($_GET['subscription'])) {
         <div class="row profile">
             <div class="col-sm-offset-2 col-sm-8 text-center">
                 <h3>Josi</h3>
-                <img src="//scontent-fra.xx.fbcdn.net/hphotos-xap1/t31.0-8/1496105_10152155528894110_1616484322_o.jpg" class="groomsmen-picture img-circle">
+                <img src="Resources/Images/josi.jpg" class="groomsmen-picture img-circle">
                 <p class="text-muted">Nach dem gemeinsamen Studium mit Nadia meisterten die zwei frischgebackenen Lehrerinnen die ersten Berufsjahre gemeinsam mit Vorbereitungen in den Ferien, wobei natürlich auch ein Tag plaudern bei einem Foxtrail dazugehörte.</p>
             </div>
         </div>
         <div class="row profile">
             <div class="col-sm-offset-2 col-sm-8 text-center">
                 <h3>Jürg</h3>
-                <img src="//www.gravatar.com/avatar/41c42656cf67fce9e98e1053b3c0c889?s=340" class="groomsmen-picture img-circle">
+                <img src="Resources/Images/juerg.jpg" class="groomsmen-picture img-circle">
                 <p class="text-muted">Den Ursprung unserer Beziehung haben wir nur ihm zu verdanken. Als Klassenkamerad von Martin und Bruder von Nadia war im Ausgang zu dritt oft nicht klar, ob nun Nadia oder Jürg das dritte Rad am Wagen war.</p>
             </div>
         </div>
