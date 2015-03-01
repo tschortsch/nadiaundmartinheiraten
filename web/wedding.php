@@ -241,14 +241,19 @@ if(isset($_GET['subscription'])) {
             <div class="col-sm-offset-2 col-sm-8 text-center">
                 <h3>Josi</h3>
                 <img src="Resources/Images/josi.jpg" class="groomsmen-picture img-circle">
-                <p class="text-muted">Nach dem gemeinsamen Studium mit Nadia meisterten die zwei frischgebackenen Lehrerinnen die ersten Berufsjahre gemeinsam mit Vorbereitungen in den Ferien, wobei natürlich auch ein Tag plaudern bei einem Foxtrail dazugehörte.</p>
+                <p>
+                    Nachdem wir während einem Praktikum im ersten Semester beinahe den Kindergarten abgefackelt haben, waren wir bereit, jede noch so brenzlige Situation zu meistern. Somit ist Josi bestens als meine Trauzeugin geeignet.
+                </p>
+                <p>
+                    Gemeinsam suchten wir nach einer Stelle, machten Spanien unsicher und reisten letztes Jahr durch Hawaii. Während der ersten Berufsjahre verbrachten wir in den Ferien viel Zeit mit gemeinsamen Vorbereitungen, wobei natürlich auch ein Tag Plaudern bei dem ein oder anderen Foxtrail dazugehörte.
+                </p>
             </div>
         </div>
         <div class="row profile">
             <div class="col-sm-offset-2 col-sm-8 text-center">
                 <h3>Jürg</h3>
                 <img src="Resources/Images/juerg.jpg" class="groomsmen-picture img-circle">
-                <p class="text-muted">Den Ursprung unserer Beziehung haben wir nur ihm zu verdanken. Als Klassenkamerad von Martin und Bruder von Nadia war im Ausgang zu dritt oft nicht klar, ob nun Nadia oder Jürg das dritte Rad am Wagen war.</p>
+                <p>Den Ursprung unserer Beziehung haben wir nur ihm zu verdanken. Als Klassenkamerad von Martin und Bruder von Nadia war im Ausgang zu dritt oft nicht klar, ob nun Nadia oder Jürg das dritte Rad am Wagen war.</p>
             </div>
         </div>
     </div>
