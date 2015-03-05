@@ -268,7 +268,7 @@ if(isset($_GET['subscription'])) {
                 <img src="Resources/Images/juerg.jpg" class="groomsmen-picture img-circle">
                 <div class="text-justify">
                     <p>
-                        Wir kennen uns seit dem Gymnasium. Seither gab es unzählige Duelle zwischen uns beiden in den verschiedensten Sport- und Nicht-Sportarten. Legenden besagen, dass es sich dabei mit einem Zwischenstand von <strong>1302:1298</strong> um das längste Duell seit Menschengedenken handle.
+                        Wir kennen uns seit dem Gymnasium. Seither gab es unzählige Duelle zwischen uns beiden in den verschiedensten Sport- und Nicht-Sportarten. Legenden besagen, dass es sich dabei mit einem Zwischenstand von <strong>1302:1298</strong> um das längste Duell seit Menschengedenken handle. Mit dem Punkt für die frühere Hochzeit kann ich meinen Vorsprung souverän ausbauen.
                     </p>
                     <p>
                         Den Ursprung unserer Beziehung haben wir nur ihm zu verdanken. Als mein Klassenkamerad und Bruder von Nadia war im Ausgang zu dritt oft nicht klar, ob nun er oder Nadia das dritte Rad am Wagen war.
