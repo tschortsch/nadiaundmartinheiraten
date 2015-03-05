@@ -38,7 +38,7 @@ $wrongpassword = isset($_GET['wrongpassword']) && $_GET['wrongpassword'] == 1;
 
     <!-- Custom Fonts -->
     <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
-    <link href="//fonts.googleapis.com/css?family=Great+Vibes" rel="stylesheet" type="text/css">
+    <link href="//fonts.googleapis.com/css?family=Source+Sans+Pro:400,700,400italic,700italic|Great+Vibes" rel="stylesheet" type="text/css">
 
     <!-- Page styles -->
     <link rel="stylesheet" href="Resources/Styles/login-form.css">
