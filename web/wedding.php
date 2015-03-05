@@ -291,7 +291,7 @@ if(isset($_GET['subscription'])) {
             <div class="col-sm-12 text-center">
                 <p>Für alle Ideenlosen haben wir uns fleissig Gedanken gemacht, um euch die Suche nach einem passenden Geschenk zu erleichtern. Mit einem Klick auf den folgenden Link gelangt ihr auf unsere Wunschliste.</p>
 
-                <a href="http://9gag.com" class="btn btn-primary btn-lg" role="button"><i class="fa fa-shopping-cart"></i> Auf zur Wunschliste</a>
+                <a href="http://9gag.com" target="_blank" class="btn btn-primary btn-lg" role="button"><i class="fa fa-shopping-cart"></i> Auf zur Wunschliste</a>
             </div>
         </div>
     </div>
