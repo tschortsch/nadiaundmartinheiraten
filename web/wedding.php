@@ -50,7 +50,7 @@ if(isset($_GET['subscription'])) {
 
     <!-- Custom Fonts -->
     <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
-    <link href="//fonts.googleapis.com/css?family=Great+Vibes" rel="stylesheet" type="text/css">
+    <link href="//fonts.googleapis.com/css?family=Source+Sans+Pro:400,700,400italic,700italic|Great+Vibes" rel="stylesheet" type="text/css">
 
     <!-- Page styles -->
     <link rel="stylesheet" href="Resources/Styles/wedding.css">
@@ -157,7 +157,7 @@ if(isset($_GET['subscription'])) {
                     </a>
                 </div>
             </div>
-            <div class="col-md-7">
+            <div class="col-md-7 text-justify">
                 <p>
                     Als im März 2006 der grosse Schneesturm kam, hatten wir nichts besseres im Sinn als in dunkelster Nacht Schneeengel zu machen. Damit war der Grundstein für unsere Beziehung gelegt.
                 </p>
@@ -252,24 +252,28 @@ if(isset($_GET['subscription'])) {
             <div class="col-sm-offset-2 col-sm-8 text-center">
                 <h3>Josi</h3>
                 <img src="Resources/Images/josi.jpg" class="groomsmen-picture img-circle">
-                <p>
-                    Nachdem wir während einem Praktikum im ersten Semester beinahe den Kindergarten abgefackelt haben, waren wir bereit, jede noch so brenzlige Situation zu meistern. Somit ist Josi bestens als meine Trauzeugin geeignet.
-                </p>
-                <p>
-                    Gemeinsam suchten wir nach einer Stelle, machten Spanien unsicher und reisten letztes Jahr durch Hawaii. Während der ersten Berufsjahre verbrachten wir in den Ferien viel Zeit mit gemeinsamen Vorbereitungen, wobei natürlich auch ein Tag Plaudern bei dem ein oder anderen Foxtrail dazugehörte.
-                </p>
+                <div class="text-justify">
+                    <p>
+                        Nachdem wir während einem Praktikum im ersten Semester beinahe den Kindergarten abgefackelt haben, waren wir bereit, jede noch so brenzlige Situation zu meistern. Somit ist Josi bestens als meine Trauzeugin geeignet.
+                    </p>
+                    <p>
+                        Gemeinsam suchten wir nach einer Stelle, machten Spanien unsicher und reisten letztes Jahr durch Hawaii. Während der ersten Berufsjahre verbrachten wir in den Ferien viel Zeit mit gemeinsamen Vorbereitungen, wobei natürlich auch ein Tag Plaudern bei dem ein oder anderen Foxtrail dazugehörte.
+                    </p>
+                </div>
             </div>
         </div>
         <div class="row profile">
             <div class="col-sm-offset-2 col-sm-8 text-center">
                 <h3>Jürg</h3>
                 <img src="Resources/Images/juerg.jpg" class="groomsmen-picture img-circle">
-                <p>
-                    Wir kennen uns seit dem Gymnasium. Seither gab es unzählige Duelle zwischen uns beiden in den verschiedensten Sport- und Nicht-Sportarten. Legenden besagen, dass es sich dabei mit einem Zwischenstand von <strong>1302:1298</strong> um das längste Duell seit Menschengedenken handle.
-                </p>
-                <p>
-                    Den Ursprung unserer Beziehung haben wir nur ihm zu verdanken. Als mein Klassenkamerad und Bruder von Nadia war im Ausgang zu dritt oft nicht klar, ob nun er oder Nadia das dritte Rad am Wagen war.
-                </p>
+                <div class="text-justify">
+                    <p>
+                        Wir kennen uns seit dem Gymnasium. Seither gab es unzählige Duelle zwischen uns beiden in den verschiedensten Sport- und Nicht-Sportarten. Legenden besagen, dass es sich dabei mit einem Zwischenstand von <strong>1302:1298</strong> um das längste Duell seit Menschengedenken handle.
+                    </p>
+                    <p>
+                        Den Ursprung unserer Beziehung haben wir nur ihm zu verdanken. Als mein Klassenkamerad und Bruder von Nadia war im Ausgang zu dritt oft nicht klar, ob nun er oder Nadia das dritte Rad am Wagen war.
+                    </p>
+                </div>
             </div>
         </div>
     </div>

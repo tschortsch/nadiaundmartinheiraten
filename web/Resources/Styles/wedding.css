@@ -43,11 +43,11 @@
     -ms-transform: scale(1.2);
     transform: scale(1.2);
     opacity: 0; } }
-.text-primary {
-  color: #ffffff; }
+body {
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 16px; }
 
 p {
-  font-size: 14px;
   line-height: 1.75em;
   color: #777; }
 
@@ -149,7 +149,7 @@ header {
       -webkit-transition: padding .3s;
       transition: padding .3s; }
       .navbar-default .navbar-brand {
-        font-size: 2em;
+        font-size: 1.8em;
         -webkit-transition: all .3s;
         -moz-transition: all .3s;
         transition: all .3s; }
@@ -349,7 +349,7 @@ section {
     left: -14px;
     right: auto; } }
 .timeline-body .fa {
-  width: 16px; }
+  width: 18px; }
 
 .google-map iframe {
   width: 80%;
@@ -384,7 +384,8 @@ footer {
   background-color: #363636;
   color: #BDBDBD;
   padding: 25px 0;
-  text-align: center; }
+  text-align: center;
+  font-size: 0.9em; }
   footer a:hover,
   footer a:focus,
   footer a:active,
