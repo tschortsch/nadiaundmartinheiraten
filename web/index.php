@@ -61,7 +61,7 @@ $wrongpassword = isset($_GET['wrongpassword']) && $_GET['wrongpassword'] == 1;
                     <label class="sr-only" for="password">Passwort</label>
                     <input type="password" class="form-control" id="password" name="password" placeholder="Passwort">
                     <?php if($wrongpassword) { ?>
-                        <div id="passwordStatus" class="text-danger">Da hast du dich wohl vertippt. Versuchs doch nochmals!</div>
+                        <div id="passwordStatus" class="text-danger">Da hast du dich wohl vertippt. Versuchs doch noch einmal!</div>
                     <?php } ?>
                 </div>
                 <button type="submit" class="btn btn-default"><i class="fa fa-heart"></i> Webseite öffnen</button>
