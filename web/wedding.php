@@ -123,25 +123,127 @@ if(isset($_GET['subscription'])) {
         </div>
         <div class="row">
             <div class="col-md-5">
-                <div id="carousel-thatsus" class="carousel slide">
-                    <!-- Indicators -->
-                    <ol class="carousel-indicators">
-                        <li data-target="#carousel-thatsus" data-slide-to="0" class="active"></li>
-                        <li data-target="#carousel-thatsus" data-slide-to="1"></li>
-                    </ol>
-
+                <div id="carousel-thatsus" class="carousel slide" data-interval="false">
                     <!-- Wrapper for slides -->
                     <div class="carousel-inner" role="listbox">
                         <div class="item active">
-                            <img src="Resources/Images/login-bg-small.jpg" />
+                            <img src="Resources/Images/thatsus/2006.03.-Vibes.jpg" />
                             <div class="carousel-caption">
-                                Wir beim ersten Treffen
+                                2006 - Wir beim ersten Treffen
                             </div>
                         </div>
                         <div class="item">
-                            <img src="Resources/Images/login-bg-small.jpg" />
+                            <img src="Resources/Images/thatsus/2006.08.-Suedtuerkei-1.jpg" />
                             <div class="carousel-caption">
-                                Wir beim nächsten Treffen
+                                2008 - Südtürkei
+                            </div>
+                        </div>
+                        <div class="item">
+                            <img src="Resources/Images/thatsus/2006.08.-Suedtuerkei-2.jpg" />
+                            <div class="carousel-caption">
+                                2008 - Südtürkei
+                            </div>
+                        </div>
+                        <div class="item">
+                            <img src="Resources/Images/thatsus/2007.07.-Paris.jpg" />
+                            <div class="carousel-caption">
+                                2007 - Paris
+                            </div>
+                        </div>
+                        <div class="item">
+                            <img src="Resources/Images/thatsus/2008.06.-Boetle.jpg" />
+                            <div class="carousel-caption">
+                                2008 - Gummiböötle
+                            </div>
+                        </div>
+                        <div class="item">
+                            <img src="Resources/Images/thatsus/2008.07.-Kos.jpg" />
+                            <div class="carousel-caption">
+                                2008 - Kos
+                            </div>
+                        </div>
+                        <div class="item">
+                            <img src="Resources/Images/thatsus/2008.07.-Nightskate.jpg" />
+                            <div class="carousel-caption">
+                                2008 - Nightskate
+                            </div>
+                        </div>
+                        <div class="item">
+                            <img src="Resources/Images/thatsus/2009.06.-GoKart.jpg" />
+                            <div class="carousel-caption">
+                                2009 - Go Kart fahren
+                            </div>
+                        </div>
+                        <div class="item">
+                            <img src="Resources/Images/thatsus/2010.07.-Kreuzfahrt.jpg" />
+                            <div class="carousel-caption">
+                                2010 - Mittelmeer Kreuzfahrt
+                            </div>
+                        </div>
+                        <div class="item">
+                            <img src="Resources/Images/thatsus/2011.07-New-York.jpg" />
+                            <div class="carousel-caption">
+                                2011 - New York
+                            </div>
+                        </div>
+                        <div class="item">
+                            <img src="Resources/Images/thatsus/2011.10.-Kalifornien-1.jpg" />
+                            <div class="carousel-caption">
+                                2011 - Kalifornien
+                            </div>
+                        </div>
+                        <div class="item">
+                            <img src="Resources/Images/thatsus/2011.10.-Kalifornien-2.jpg" />
+                            <div class="carousel-caption">
+                                2011 - Kalifornien
+                            </div>
+                        </div>
+                        <div class="item">
+                            <img src="Resources/Images/thatsus/2011.12.-Santa-Barbara-1.jpg" />
+                            <div class="carousel-caption">
+                                2011 - Santa Barbara
+                            </div>
+                        </div>
+                        <div class="item">
+                            <img src="Resources/Images/thatsus/2011.12.-Santa-Barbara-2.jpg" />
+                            <div class="carousel-caption">
+                                2011 - Santa Barbara
+                            </div>
+                        </div>
+                        <div class="item">
+                            <img src="Resources/Images/thatsus/2012.01.-Santa-Barbara.jpg" />
+                            <div class="carousel-caption">
+                                2012 - Santa Barbara
+                            </div>
+                        </div>
+                        <div class="item">
+                            <img src="Resources/Images/thatsus/2013.07.20.-Yellow-Stone.jpg" />
+                            <div class="carousel-caption">
+                                2013 - Yellowstone Nationalpark
+                            </div>
+                        </div>
+                        <div class="item">
+                            <img src="Resources/Images/thatsus/2013.07.29.-Monument-Valley.jpg" />
+                            <div class="carousel-caption">
+                                2013 - Monument Valley
+                            </div>
+                        </div>
+                        <div class="item">
+                            <img src="Resources/Images/thatsus/2014.02.-Hawaii-1.jpg" />
+                            <div class="carousel-caption">
+                                2014 - Hawaii
+                            </div>
+                        </div>
+                        <div class="item">
+                            <img src="Resources/Images/thatsus/2014.02.-Hawaii-2.jpg" />
+                            <div class="carousel-caption">
+                                2014 - Hawaii
+                            </div>
+                        </div>
+                        <div class="item">
+                            <img src="Resources/Images/thatsus/2014.02.-Hawaii-3.jpg" />
+                            <div class="carousel-caption">
+                                2014 - Hawaii
                             </div>
                         </div>
                     </div>
