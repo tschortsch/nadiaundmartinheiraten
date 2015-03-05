@@ -268,7 +268,7 @@ if(isset($_GET['subscription'])) {
                     Wir kennen uns seit dem Gymnasium. Seither gab es unzählige Duelle zwischen uns beiden in den verschiedensten Sport- und Nicht-Sportarten. Legenden besagen, dass es sich dabei mit einem Zwischenstand von <strong>1302:1298</strong> um das längste Duell seit Menschengedenken handle.
                 </p>
                 <p>
-                    Den Ursprung unserer Beziehung haben wir nur ihm zu verdanken. Als mein Klassenkamerad und Bruder von Nadia war im Ausgang zu dritt oft nicht klar, ob nun Nadia oder Jürg das dritte Rad am Wagen war.
+                    Den Ursprung unserer Beziehung haben wir nur ihm zu verdanken. Als mein Klassenkamerad und Bruder von Nadia war im Ausgang zu dritt oft nicht klar, ob nun er oder Nadia das dritte Rad am Wagen war.
                 </p>
             </div>
         </div>
