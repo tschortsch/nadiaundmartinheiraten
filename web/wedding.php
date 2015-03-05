@@ -267,7 +267,7 @@ if(isset($_GET['subscription'])) {
                     Von da an haben wir viele schöne Momente gemeinsam geniessen können, aber auch Tiefen überstanden. Wir haben uns weiterentwickelt und an unserer Beziehung gearbeitet. Wir haben die Nähe genossen, mussten aber auch den weiten Ozean zwischen uns ertragen.
                 </p>
                 <p>
-                    Vor etwas mehr als einem Jahr erlebten wir in Hawaii einen traumhaften Urlaub. Nach einer Whalewatchingtour und schwimmen mit Schildköten verlobten wir uns bei einem wunderschönen Sonnenuntergang auf Maui.
+                    Vor etwas mehr als einem Jahr erlebten wir in Hawaii einen traumhaften Urlaub. Nach einer Whalewatchingtour und Schwimmen mit Schildköten verlobten wir uns bei einem wunderschönen Sonnenuntergang auf Maui.
                 </p>
                 <p>
                     Nun nach über neun Jahren wagen wir den nächsten Schritt um unsere Beziehung weiter zu vertiefen und ihr seid herzlich eingeladen, diesen Moment mit uns zu teilen.
