@@ -91,10 +91,10 @@ if(isset($_GET['subscription'])) {
                     <a class="page-scroll" href="#groomsmen" title="Trauzeugen"><i class="fa fa-users"></i><span class="visible-xs-inline"> Unsere Trauzeugen</span></a>
                 </li>
                 <li>
-                    <a class="page-scroll" href="#present" title="Geschenke"><i class="fa fa-gift"></i><span class="visible-xs-inline"> Geschenke</span></a>
+                    <a class="page-scroll" href="#present" title="Geschenke"><i class="fa fa-gift"></i><span class="visible-xs-inline"> Geschenke!</span></a>
                 </li>
                 <li>
-                    <a class="page-scroll" href="#signup" title="Bin dabei!"><i class="fa fa-check-square-o"></i><span class="visible-xs-inline"> Bin dabei!</span></a>
+                    <a class="page-scroll" href="#signup" title="Bin dabei!"><i class="fa fa-check-square-o"></i><span class="visible-xs-inline"> Bin dabei</span></a>
                 </li>
             </ul>
         </div>
