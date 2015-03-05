@@ -312,12 +312,33 @@ if(isset($_GET['subscription'])) {
                         <input type="hidden" name="password" value="<?php echo $password; ?>" />
                         <div class="row">
                             <div class="col-md-6">
+                                <div class="form-group imInApero">
+                                    <label class="control-label" for="imInYes">Ich bin dabei *</label>
+                                    <div class="radio">
+                                        <label>
+                                            <input type="radio" name="imIn" id="imInYes" value="Klar bin ich dabei" required data-validation-required-message="Bitte wähle ob du dabei bist.">
+                                            Klar bin ich dabei
+                                        </label>
+                                    </div>
+                                    <div class="radio">
+                                        <label>
+                                            <input type="radio" name="imIn" id="imInNo" value="Ich bin leider verhindert" required data-validation-required-message="Bitte wähle ob du dabei bist.">
+                                            Ich bin leider verhindert
+                                        </label>
+                                    </div>
+                                    <p class="help-block"></p>
+                                </div>
                                 <div class="form-group">
                                     <label class="control-label" for="name">Name *</label>
                                     <input type="text" class="form-control" id="name" name="name" required data-validation-required-message="Bitte deinen Namen eingeben.">
                                     <p class="help-block"></p>
                                 </div>
                                 <div class="form-group">
+                                    <label class="control-label" for="email">Email *</label>
+                                    <input type="email" class="form-control" id="email" name="email" required data-validation-required-message="Bitte gib deine Email Adresse ein." data-validation-email-message="Da scheint was nicht zu stimmen.">
+                                    <p class="help-block"></p>
+                                </div>
+                                <div class="form-group count">
                                     <label class="control-label" for="count">Anzahl Personen *</label>
                                     <select class="form-control" id="count" name="count" required data-validation-required-message="Bitte die Anzahl Personen auswählen.">
                                         <option value="">bitte auswählen</option>
@@ -327,11 +348,6 @@ if(isset($_GET['subscription'])) {
                                         <option value="4">zu viert</option>
                                         <option value="5">zu fünft</option>
                                     </select>
-                                    <p class="help-block"></p>
-                                </div>
-                                <div class="form-group">
-                                    <label class="control-label" for="email">Email *</label>
-                                    <input type="email" class="form-control" id="email" name="email" required data-validation-required-message="Bitte gib deine Email Adresse ein." data-validation-email-message="Da scheint was nicht zu stimmen.">
                                     <p class="help-block"></p>
                                 </div>
                             </div>
@@ -354,13 +370,20 @@ if(isset($_GET['subscription'])) {
                         <input type="hidden" name="password" value="<?php echo $password; ?>" />
                         <div class="row">
                             <div class="col-md-6">
-                                <div class="form-group">
-                                    <label class="control-label" for="count">Anzahl Personen *</label>
-                                    <select class="form-control" id="count" name="count" required data-validation-required-message="Bitte die Anzahl Personen auswählen.">
-                                        <option value="">bitte auswählen</option>
-                                        <option value="1">alleine</option>
-                                        <option value="2">zu zweit</option>
-                                    </select>
+                                <div class="form-group imInEssen">
+                                    <label class="control-label" for="imInYes">Ich bin dabei *</label>
+                                    <div class="radio">
+                                        <label>
+                                            <input type="radio" name="imIn" id="imInYes" value="Klar bin ich dabei" required data-validation-required-message="Bitte wähle ob du dabei bist.">
+                                            Klar bin ich dabei
+                                        </label>
+                                    </div>
+                                    <div class="radio">
+                                        <label>
+                                            <input type="radio" name="imIn" id="imInNo" value="Ich bin leider verhindert" required data-validation-required-message="Bitte wähle ob du dabei bist.">
+                                            Ich bin leider verhindert
+                                        </label>
+                                    </div>
                                     <p class="help-block"></p>
                                 </div>
                                 <div class="form-group">
@@ -373,7 +396,16 @@ if(isset($_GET['subscription'])) {
                                     <input type="email" class="form-control" id="email" name="email" required data-validation-required-message="Bitte gib deine Email Adresse ein." data-validation-email-message="Da scheint was nicht zu stimmen.">
                                     <p class="help-block"></p>
                                 </div>
-                                <div class="form-group">
+                                <div class="form-group count">
+                                    <label class="control-label" for="count">Anzahl Personen *</label>
+                                    <select class="form-control" id="count" name="count" required data-validation-required-message="Bitte die Anzahl Personen auswählen.">
+                                        <option value="">bitte auswählen</option>
+                                        <option value="1">alleine</option>
+                                        <option value="2">zu zweit</option>
+                                    </select>
+                                    <p class="help-block"></p>
+                                </div>
+                                <div class="form-group attending">
                                     <label class="control-label" for="attendingApero">Bin dabei bei *</label>
                                     <div class="radio">
                                         <label>
@@ -395,7 +427,7 @@ if(isset($_GET['subscription'])) {
                                     </div>
                                     <p class="help-block"></p>
                                 </div>
-                                <div class="form-group">
+                                <div class="form-group mealtype">
                                     <label class="control-label" for="mealtypeMeat">Ich esse *</label>
                                     <div class="radio">
                                         <label>
@@ -411,7 +443,7 @@ if(isset($_GET['subscription'])) {
                                     </div>
                                     <p class="help-block"></p>
                                 </div>
-                                <div class="form-group">
+                                <div class="form-group travelBy">
                                     <label class="control-label" for="travelByCar">Ich reise an mit *</label>
                                     <div class="radio">
                                         <label>

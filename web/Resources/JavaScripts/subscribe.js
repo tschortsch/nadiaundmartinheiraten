@@ -6,6 +6,7 @@ $(function() {
             event.preventDefault();
 
             // get values from FORM
+            var imIn = $('input:radio[name="imIn"]:checked').val();
             var name = $("input#name").val();
             var email = $("input#email").val();
             var count = $("select#count").val();
@@ -19,9 +20,10 @@ $(function() {
                 url: "subscribe.php",
                 type: "POST",
                 data: {
+                    imIn: imIn,
                     name: name,
-                    count: count,
                     email: email,
+                    count: count,
                     attending: attending,
                     mealtype: mealtype,
                     travelBy: travelBy,

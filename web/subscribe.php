@@ -10,8 +10,8 @@ $view = checkLogin($password);
 
 if($view == 'apero') {
     // Check for empty fields
-    if(empty($_POST['name']) ||
-        empty($_POST['count']) ||
+    if(empty($_POST['imIn']) ||
+        empty($_POST['name']) ||
         empty($_POST['email']) ||
         !filter_var($_POST['email'], FILTER_VALIDATE_EMAIL))
     {
@@ -19,53 +19,69 @@ if($view == 'apero') {
         return false;
     }
 
+    $imIn = $_POST['imIn'];
     $name = $_POST['name'];
-    $count = $_POST['count'];
     $email = $_POST['email'];
+    $count = '';
+    if(isset($_POST['count'])) {
+        $count = $_POST['count'];
+    }
     $message = $_POST['message'];
 
     // Create the email and send the message
     $email_body_text = "Das Formular auf der Hochzeitswebseite wurde ausgefüllt!\n\n";
-    $email_body_text .= "Name: " . $name . "\nEmail: ". $email . "\nAnzahl Personen: " . $count . "\nMessage:\n" . $message;
+    $email_body_text .= "Ich bin dabei: " . $imIn . "\nName: " . $name . "\nEmail: ". $email . "\nAnzahl Personen: " . $count . "\nMessage:\n" . $message;
     $email_body_html = "<p>Das Formular auf der Hochzeitswebseite wurde ausgefüllt!</p>";
     $email_body_html .= '
         <table cellpadding="3">
-            <tr><th style="text-align: right; width: 150px;">Name:</th><td>' . $name . '</td></tr>
+            <tr><th style="text-align: right; width: 150px;">Ich bin dabei:</th><td>' . $imIn . '</td></tr>
+            <tr><th style="text-align: right;">Name:</th><td>' . $name . '</td></tr>
             <tr><th style="text-align: right;">Email:</th><td>' . $email . '</td></tr>
             <tr><th style="text-align: right;">Anzahl Personen:</th><td>' . $count . '</td></tr>
             <tr><th style="text-align: right; vertical-align: top;">Mitteilung:</th><td>' . nl2br($message) . '</td></tr>
         </table>';
 } else {
     // Check for empty fields
-    if(empty($_POST['count']) ||
+    if(empty($_POST['imIn']) ||
         empty($_POST['name']) ||
         empty($_POST['email']) ||
-        !filter_var($_POST['email'], FILTER_VALIDATE_EMAIL) ||
-        empty($_POST['attending']) ||
-        empty($_POST['mealtype']) ||
-        empty($_POST['travelBy']))
+        !filter_var($_POST['email'], FILTER_VALIDATE_EMAIL))
     {
         header('HTTP/1.1 400 Bad Request');
         return false;
     }
 
-    $count = $_POST['count'];
+    $imIn = $_POST['imIn'];
     $name = $_POST['name'];
     $email = $_POST['email'];
-    $attending = $_POST['attending'];
-    $mealtype = $_POST['mealtype'];
-    $travelBy = $_POST['travelBy'];
+    $count = '';
+    if(isset($_POST['count'])) {
+        $count = $_POST['count'];
+    }
+    $attending = '';
+    if(isset($_POST['attending'])) {
+        $attending = $_POST['attending'];
+    }
+    $mealtype = '';
+    if(isset($_POST['mealtype'])) {
+        $mealtype = $_POST['mealtype'];
+    }
+    $travelBy = '';
+    if(isset($_POST['travelBy'])) {
+        $travelBy = $_POST['travelBy'];
+    }
     $message = $_POST['message'];
 
     // Create the email and send the message
     $email_body_text = "Das Formular auf der Hochzeitswebseite wurde ausgefüllt!\n\n";
-    $email_body_text .= "Anzahl Personen: " . $count . "\nName: " . $name . "\nEmail: ". $email . "\nBin dabei bei: " . $attending . "\nIch esse: " . $mealtype . "\nIch reise an mit: " . $travelBy . "\nMessage:\n" . $message;
+    $email_body_text .= "Ich bin dabei: " . $imIn . "\nName: " . $name . "\nEmail: ". $email . "\nAnzahl Personen: " . $count . "\nBin dabei bei: " . $attending . "\nIch esse: " . $mealtype . "\nIch reise an mit: " . $travelBy . "\nMessage:\n" . $message;
     $email_body_html = "<p>Das Formular auf der Hochzeitswebseite wurde ausgefüllt!</p>";
     $email_body_html .= '
         <table cellpadding="3">
-            <tr><th style="text-align: right; width: 150px;">Anzahl Personen:</th><td>' . $count . '</td></tr>
+            <tr><th style="text-align: right; width: 150px;">Ich bin dabei:</th><td>' . $imIn . '</td></tr>
             <tr><th style="text-align: right;">Name:</th><td>' . $name . '</td></tr>
             <tr><th style="text-align: right;">Email:</th><td>' . $email . '</td></tr>
+            <tr><th style="text-align: right;">Anzahl Personen:</th><td>' . $count . '</td></tr>
             <tr><th style="text-align: right;">Bin dabei bei:</th><td>' . $attending . '</td></tr>
             <tr><th style="text-align: right;">Ich esse:</th><td>' . $mealtype . '</td></tr>
             <tr><th style="text-align: right;">Ich reise an mit:</th><td>' . $travelBy . '</td></tr>
