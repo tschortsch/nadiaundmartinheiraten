@@ -185,13 +185,24 @@ if(isset($_GET['subscription'])) {
         </div>
         <ul class="timeline">
             <li>
+                <div class="timeline-badge info"><i class="fa fa-map-marker"></i></div>
+                <div class="timeline-panel">
+                    <div class="timeline-heading">
+                        <h2 class="timeline-title">14:00 - Treffpunkt</h2>
+                    </div>
+                    <div class="timeline-body">
+                        <p><i class="fa fa-clock-o"></i> 06. Juni 2015 ab 14:00 Uhr</p>
+                        <p><i class="fa fa-map-marker"></i> im Restaurant Römerpark</p>
+                </div>
+            </li>
+            <li class="timeline-inverted">
                 <div class="timeline-badge warning"><i class="fa fa-glass"></i></div>
                 <div class="timeline-panel">
                     <div class="timeline-heading">
-                        <h2 class="timeline-title">Apéro</h2>
+                        <h2 class="timeline-title">14:30 - Apéro</h2>
                     </div>
                     <div class="timeline-body">
-                        <p><i class="fa fa-clock-o"></i> ab 14:30 Uhr</p>
+                        <p><i class="fa fa-clock-o"></i> 06. Juni 2015 ab 14:30 Uhr</p>
                         <p><i class="fa fa-map-marker"></i> im Restaurant Römerpark</p>
                         <br />
                         <p>Im engsten Familienkreis werden wir uns auf dem Standesamt das Ja-Wort geben. Um mit euch allen darauf anzustossen, laden wir euch herzlich zum Apéro im ……………………………………… ein.</p>
@@ -199,14 +210,14 @@ if(isset($_GET['subscription'])) {
                 </div>
             </li>
             <?php if($view == 'essen'): ?>
-                <li class="timeline-inverted">
+                <li>
                     <div class="timeline-badge danger"><i class="fa fa-cutlery"></i></div>
                     <div class="timeline-panel">
                         <div class="timeline-heading">
-                            <h2 class="timeline-title">Essen & Feier</h2>
+                            <h2 class="timeline-title">17:00 - Essen & Feier</h2>
                         </div>
                         <div class="timeline-body">
-                            <p><i class="fa fa-clock-o"></i> ab 17:00 Uhr</p>
+                            <p><i class="fa fa-clock-o"></i> 06. Juni 2015 ab 17:00 Uhr</p>
                             <p><i class="fa fa-map-marker"></i> im Dolder</p>
                             <br />
                             <p>Mit den geladenen Gästen werden wir uns anschliessend um ca. 17.00 Uhr aus dem grossen Rahmen verabschieden und im kleineren Rahmen mit Privatautos auf den Weg ins ………………………………… machen. Dort erwartet euch ein fröhliches Abendessen mit gemütlichem Beisammensein.</p>
