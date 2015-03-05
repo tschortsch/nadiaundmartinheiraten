@@ -264,7 +264,12 @@ if(isset($_GET['subscription'])) {
             <div class="col-sm-offset-2 col-sm-8 text-center">
                 <h3>Jürg</h3>
                 <img src="Resources/Images/juerg.jpg" class="groomsmen-picture img-circle">
-                <p>Den Ursprung unserer Beziehung haben wir nur ihm zu verdanken. Als Klassenkamerad von Martin und Bruder von Nadia war im Ausgang zu dritt oft nicht klar, ob nun Nadia oder Jürg das dritte Rad am Wagen war.</p>
+                <p>
+                    Wir kennen uns seit dem Gymnasium. Seither gab es unzählige Duelle zwischen uns beiden in verschiedensten Sport- und Nicht-Sportarten. Legenden besagen, dass es sich dabei mit einem Zwischenstand von <strong>1302:1298</strong> um das längste Duell seit Menschengedenken handle.
+                </p>
+                <p>
+                    Den Ursprung unserer Beziehung haben wir nur ihm zu verdanken. Als mein Klassenkamerad und Bruder von Nadia war im Ausgang zu dritt oft nicht klar, ob nun Nadia oder Jürg das dritte Rad am Wagen war.
+                </p>
             </div>
         </div>
     </div>
