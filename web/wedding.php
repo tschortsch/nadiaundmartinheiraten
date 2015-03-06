@@ -248,6 +248,9 @@ if(isset($_GET['subscription'])) {
                         </div>
                     </div>
 
+                    <!-- Image loading icon -->
+                    <div class="loading hide"><img src="Resources/Images/black.png"/></div>
+
                     <!-- Controls -->
                     <a class="left carousel-control" href="#carousel-thatsus" role="button" data-slide="prev">
                         <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
