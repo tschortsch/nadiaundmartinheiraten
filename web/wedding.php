@@ -127,121 +127,121 @@ if(isset($_GET['subscription'])) {
                     <!-- Wrapper for slides -->
                     <div class="carousel-inner" role="listbox">
                         <div class="item active">
-                            <img src="Resources/Images/thatsus/2006.03.-Vibes.jpg" />
+                            <img src="Resources/Images/thatsus/2006.03.-Vibes.jpg" alt="2006 - Wir beim ersten Treffen" title="2006 - Wir beim ersten Treffen" />
                             <div class="carousel-caption">
                                 2006 - Wir beim ersten Treffen
                             </div>
                         </div>
                         <div class="item">
-                            <img src="Resources/Images/thatsus/2006.08.-Suedtuerkei-1.jpg" />
+                            <img src="" lazy-src="Resources/Images/thatsus/2006.08.-Suedtuerkei-1.jpg" alt="2008 - Südtürkei" title="2008 - Südtürkei" />
                             <div class="carousel-caption">
                                 2008 - Südtürkei
                             </div>
                         </div>
                         <div class="item">
-                            <img src="Resources/Images/thatsus/2006.08.-Suedtuerkei-2.jpg" />
+                            <img src="" lazy-src="Resources/Images/thatsus/2006.08.-Suedtuerkei-2.jpg" alt="2008 - Südtürkei" title="2008 - Südtürkei" />
                             <div class="carousel-caption">
                                 2008 - Südtürkei
                             </div>
                         </div>
                         <div class="item">
-                            <img src="Resources/Images/thatsus/2007.07.-Paris.jpg" />
+                            <img src="" lazy-src="Resources/Images/thatsus/2007.07.-Paris.jpg" alt="2007 - Paris" title="2007 - Paris" />
                             <div class="carousel-caption">
                                 2007 - Paris
                             </div>
                         </div>
                         <div class="item">
-                            <img src="Resources/Images/thatsus/2008.06.-Boetle.jpg" />
+                            <img src="" lazy-src="Resources/Images/thatsus/2008.06.-Boetle.jpg" alt="2008 - Gummiböötle" title="2008 - Gummiböötle" />
                             <div class="carousel-caption">
                                 2008 - Gummiböötle
                             </div>
                         </div>
                         <div class="item">
-                            <img src="Resources/Images/thatsus/2008.07.-Kos.jpg" />
+                            <img src="" lazy-src="Resources/Images/thatsus/2008.07.-Kos.jpg" alt="2008 - Kos" title="2008 - Kos" />
                             <div class="carousel-caption">
                                 2008 - Kos
                             </div>
                         </div>
                         <div class="item">
-                            <img src="Resources/Images/thatsus/2008.07.-Nightskate.jpg" />
+                            <img src="" lazy-src="Resources/Images/thatsus/2008.07.-Nightskate.jpg" alt="2008 - Nightskate" title="2008 - Nightskate" />
                             <div class="carousel-caption">
                                 2008 - Nightskate
                             </div>
                         </div>
                         <div class="item">
-                            <img src="Resources/Images/thatsus/2009.06.-GoKart.jpg" />
+                            <img src="" lazy-src="Resources/Images/thatsus/2009.06.-GoKart.jpg" alt="2009 - Go Kart fahren" title="2009 - Go Kart fahren" />
                             <div class="carousel-caption">
                                 2009 - Go Kart fahren
                             </div>
                         </div>
                         <div class="item">
-                            <img src="Resources/Images/thatsus/2010.07.-Kreuzfahrt.jpg" />
+                            <img src="" lazy-src="Resources/Images/thatsus/2010.07.-Kreuzfahrt.jpg" alt="2010 - Mittelmeer Kreuzfahrt" title="2010 - Mittelmeer Kreuzfahrt" />
                             <div class="carousel-caption">
                                 2010 - Mittelmeer Kreuzfahrt
                             </div>
                         </div>
                         <div class="item">
-                            <img src="Resources/Images/thatsus/2011.07-New-York.jpg" />
+                            <img src="" lazy-src="Resources/Images/thatsus/2011.07-New-York.jpg" alt="2011 - New York" title="2011 - New York" />
                             <div class="carousel-caption">
                                 2011 - New York
                             </div>
                         </div>
                         <div class="item">
-                            <img src="Resources/Images/thatsus/2011.10.-Kalifornien-1.jpg" />
+                            <img src="" lazy-src="Resources/Images/thatsus/2011.10.-Kalifornien-1.jpg" alt="2011 - Kalifornien" title="2011 - Kalifornien" />
                             <div class="carousel-caption">
                                 2011 - Kalifornien
                             </div>
                         </div>
                         <div class="item">
-                            <img src="Resources/Images/thatsus/2011.10.-Kalifornien-2.jpg" />
+                            <img src="" lazy-src="Resources/Images/thatsus/2011.10.-Kalifornien-2.jpg" alt="2011 - Kalifornien" title="2011 - Kalifornien" />
                             <div class="carousel-caption">
                                 2011 - Kalifornien
                             </div>
                         </div>
                         <div class="item">
-                            <img src="Resources/Images/thatsus/2011.12.-Santa-Barbara-1.jpg" />
+                            <img src="" lazy-src="Resources/Images/thatsus/2011.12.-Santa-Barbara-1.jpg" alt="2011 - Santa Barbara" title="2011 - Santa Barbara" />
                             <div class="carousel-caption">
                                 2011 - Santa Barbara
                             </div>
                         </div>
                         <div class="item">
-                            <img src="Resources/Images/thatsus/2011.12.-Santa-Barbara-2.jpg" />
+                            <img src="" lazy-src="Resources/Images/thatsus/2011.12.-Santa-Barbara-2.jpg" alt="2011 - Santa Barbara" title="2011 - Santa Barbara" />
                             <div class="carousel-caption">
                                 2011 - Santa Barbara
                             </div>
                         </div>
                         <div class="item">
-                            <img src="Resources/Images/thatsus/2012.01.-Santa-Barbara.jpg" />
+                            <img src="" lazy-src="Resources/Images/thatsus/2012.01.-Santa-Barbara.jpg" alt="2012 - Santa Barbara" title="2012 - Santa Barbara" />
                             <div class="carousel-caption">
                                 2012 - Santa Barbara
                             </div>
                         </div>
                         <div class="item">
-                            <img src="Resources/Images/thatsus/2013.07.20.-Yellow-Stone.jpg" />
+                            <img src="" lazy-src="Resources/Images/thatsus/2013.07.20.-Yellow-Stone.jpg" alt="2013 - Yellowstone Nationalpark" title="2013 - Yellowstone Nationalpark" />
                             <div class="carousel-caption">
                                 2013 - Yellowstone Nationalpark
                             </div>
                         </div>
                         <div class="item">
-                            <img src="Resources/Images/thatsus/2013.07.29.-Monument-Valley.jpg" />
+                            <img src="" lazy-src="Resources/Images/thatsus/2013.07.29.-Monument-Valley.jpg" alt="2013 - Monument Valley" title="2013 - Monument Valley" />
                             <div class="carousel-caption">
                                 2013 - Monument Valley
                             </div>
                         </div>
                         <div class="item">
-                            <img src="Resources/Images/thatsus/2014.02.-Hawaii-1.jpg" />
+                            <img src="" lazy-src="Resources/Images/thatsus/2014.02.-Hawaii-1.jpg" alt="2014 - Hawaii" title="2014 - Hawaii" />
                             <div class="carousel-caption">
                                 2014 - Hawaii
                             </div>
                         </div>
                         <div class="item">
-                            <img src="Resources/Images/thatsus/2014.02.-Hawaii-2.jpg" />
+                            <img src="" lazy-src="Resources/Images/thatsus/2014.02.-Hawaii-2.jpg" alt="2014 - Hawaii" title="2014 - Hawaii" />
                             <div class="carousel-caption">
                                 2014 - Hawaii
                             </div>
                         </div>
                         <div class="item">
-                            <img src="Resources/Images/thatsus/2014.02.-Hawaii-3.jpg" />
+                            <img src="" lazy-src="Resources/Images/thatsus/2014.02.-Hawaii-3.jpg" alt="2014 - Hawaii" title="2014 - Hawaii" />
                             <div class="carousel-caption">
                                 2014 - Hawaii
                             </div>
@@ -606,6 +606,7 @@ if(isset($_GET['subscription'])) {
 <script src="Resources/JavaScripts/cbpAnimatedHeader.js"></script>
 <script src="Resources/JavaScripts/jqBootstrapValidation.js"></script>
 <script src="Resources/JavaScripts/subscribe.js"></script>
+<script src="Resources/JavaScripts/lazy-bootstrap-carousel-v3.js"></script>
 <script src="Resources/JavaScripts/base.js"></script>
 
 <script>

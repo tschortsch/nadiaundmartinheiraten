@@ -49,6 +49,8 @@ $(document).ready(function() {
             $('.form-group.travelBy').hide();
         }
     });
+    //Start carousel
+    $('.carousel').carousel({interval:false});
 });
 
 function removeLoadingOverlay() {
