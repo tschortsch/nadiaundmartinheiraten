@@ -154,8 +154,18 @@ section {
 
 @import "timeline";
 .timeline-body {
-    .fa {
-        width: 18px;
+    .fact {
+        .fa {
+            width: 18px;
+            display: block;
+            float: left;
+            line-height: 1.4em;
+        }
+        p {
+            line-height: 1.4em;
+            margin-left: 26px;
+            margin-bottom: 6px;
+        }
     }
 }
 

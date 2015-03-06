@@ -364,8 +364,15 @@ section {
     border-right-width: 14px;
     left: -14px;
     right: auto; } }
-.timeline-body .fa {
-  width: 18px; }
+.timeline-body .fact .fa {
+  width: 18px;
+  display: block;
+  float: left;
+  line-height: 1.4em; }
+.timeline-body .fact p {
+  line-height: 1.4em;
+  margin-left: 26px;
+  margin-bottom: 6px; }
 
 .google-map iframe {
   width: 80%;
