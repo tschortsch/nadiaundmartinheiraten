@@ -92,8 +92,8 @@ if($view == 'apero') {
 $email_subject = "Hochzeitsformular: " . $view;
 $from_email = 'noreply@nadiaundmartinheiraten.ch';
 $from_name = 'nadiaundmartinheiraten.ch';
-$to_email = 'juerg.hunziker@gmail.com';
-$to_name = 'Jürg Hunziker';
+$to_email = 'martin.rutschmann@gmail.com';
+$to_name = 'Martin Rutschmann';
 $reply_to_email = $email;
 
 try {
