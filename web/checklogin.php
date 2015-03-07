@@ -4,10 +4,10 @@
  */
 function checkLogin($password = '') {
     if(!empty($password)) {
-        $viewAperoPassword = '485c903c9c1fdff5c55e68555a2a6eef';
-        $viewEsssenPassword = 'c0ea1b785cee9fba54efbcfa9b678eb0';
+        $viewAperoPassword = '093ef96957de80044663a930a551d089';
+        $viewEsssenPassword = '1fbe25e6fff04c567326d9a79e2ab171';
 
-        $hashedPassword = md5($password);
+        $hashedPassword = md5(strtolower($password));
         if($hashedPassword == $viewAperoPassword) {
             return 'apero';
         } elseif($hashedPassword == $viewEsssenPassword) {
