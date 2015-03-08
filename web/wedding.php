@@ -383,6 +383,11 @@ if(isset($_GET['subscription'])) {
                     <p>
                         Gemeinsam suchten wir nach einer Stelle, machten Spanien unsicher und reisten letztes Jahr durch Hawaii. Während der ersten Berufsjahre verbrachten wir in den Ferien viel Zeit mit gemeinsamen Vorbereitungen, wobei natürlich auch ein Tag Plaudern bei dem ein oder anderen Foxtrail dazugehörte.
                     </p>
+                    <address>
+                        <strong>Josi kontaktieren</strong><br />
+                        <i class="fa fa-envelope-o"></i> <a href="mailto:josiane.tenud@gmx.ch">josiane.tenud@gmx.ch</a><br />
+                        <i class="fa fa-phone"></i> +41 79 795 02 20
+                    </address>
                 </div>
             </div>
         </div>
@@ -397,6 +402,11 @@ if(isset($_GET['subscription'])) {
                     <p>
                         Den Ursprung unserer Beziehung haben wir nur ihm zu verdanken. Als mein Klassenkamerad und Bruder von Nadia war im Ausgang zu dritt oft nicht klar, ob nun er oder Nadia das dritte Rad am Wagen war.
                     </p>
+                    <address>
+                        <strong>Jürg kontaktieren</strong><br />
+                        <i class="fa fa-envelope-o"></i> <a href="mailto:juerg.hunziker@gmail.com">juerg.hunziker@gmail.com</a><br />
+                        <i class="fa fa-phone"></i> +41 79 826 82 13
+                    </address>
                 </div>
             </div>
         </div>

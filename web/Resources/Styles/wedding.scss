@@ -12,21 +12,13 @@ p {
 }
 
 a {
-    color: $text-primary-color;
+    color: $navbar-color;
 
     &:hover,
     &:focus,
     &:active,
     &.active {
-        color: darken($text-primary-color, 10%);
-    }
-
-    &,
-    &:hover,
-    &:focus,
-    &:active,
-    &.active {
-        outline: 0;
+        color: darken($navbar-color, 10%);
     }
 }
 
@@ -186,6 +178,13 @@ section {
     .profile {
         margin-bottom: 30px;
     }
+
+    address {
+        margin-top: 20px;
+        .fa {
+            margin-right: 5px;
+        }
+    }
 }
 
 #signup {
@@ -222,11 +221,15 @@ footer {
     text-align: center;
     font-size: 0.9em;
 
-    a:hover,
-    a:focus,
-    a:active,
-    a.active {
+    a {
         color: #ffffff;
+
+        &:hover,
+        &:focus,
+        &:active,
+        &.active {
+            color: #ffffff;
+        }
     }
 }
 
