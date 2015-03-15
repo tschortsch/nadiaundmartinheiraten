@@ -52,11 +52,9 @@ p {
   color: #777; }
 
 a {
-  color: #ffffff; }
+  color: #9869B0; }
   a:hover, a:focus, a:active, a.active {
-    color: #e6e6e6; }
-  a, a:hover, a:focus, a:active, a.active {
-    outline: 0; }
+    color: #7f4f97; }
 
 h1,
 h2,
@@ -386,6 +384,10 @@ section {
   margin-bottom: 15px; }
 #groomsmen .profile {
   margin-bottom: 30px; }
+#groomsmen address {
+  margin-top: 20px; }
+  #groomsmen address .fa {
+    margin-right: 5px; }
 
 #signup #message {
   height: 183px; }
@@ -409,11 +411,10 @@ footer {
   padding: 25px 0;
   text-align: center;
   font-size: 0.9em; }
-  footer a:hover,
-  footer a:focus,
-  footer a:active,
-  footer a.active {
+  footer a {
     color: #ffffff; }
+    footer a:hover, footer a:focus, footer a:active, footer a.active {
+      color: #ffffff; }
 
 ::-moz-selection {
   background: #fee5fc; }
