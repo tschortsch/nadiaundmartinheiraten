@@ -264,7 +264,7 @@ if(isset($_GET['subscription'])) {
             </div>
             <div class="col-md-7 text-justify">
                 <p>
-                    Als im März 2006 der grosse Schneesturm kam, hatten wir nichts besseres im Sinn als in dunkelster Nacht Schneeengel zu machen. Damit war der Grundstein für unsere Beziehung gelegt.
+                    Als im März 2006 der grosse Schneesturm kam, hatten wir nichts Besseres im Sinn als in dunkelster Nacht Schneeengel zu machen. Damit war der Grundstein für unsere Beziehung gelegt.
                 </p>
                 <p>
                     Von da an haben wir viele schöne Momente gemeinsam geniessen können, aber auch Tiefen überstanden. Wir haben uns weiterentwickelt und an unserer Beziehung gearbeitet. Wir haben die Nähe genossen, mussten aber auch den weiten Ozean zwischen uns ertragen.
@@ -293,25 +293,7 @@ if(isset($_GET['subscription'])) {
                 <div class="timeline-badge info"><i class="fa fa-map-marker"></i></div>
                 <div class="timeline-panel">
                     <div class="timeline-heading">
-                        <h2 class="timeline-title">14:00 - Treffpunkt</h2>
-                    </div>
-                    <div class="timeline-body">
-                        <div class="fact">
-                            <i class="fa fa-clock-o"></i>
-                            <p>06. Juni 2015 ab 14:30 Uhr</p>
-                        </div>
-                        <div class="fact">
-                            <i class="fa fa-map-marker"></i>
-                            <p>Schloss Wülflingen<br />Wülflingerstrasse 214<br />8408 Winterthur</p>
-                        </div>
-                    </div>
-                </div>
-            </li>
-            <li class="timeline-inverted">
-                <div class="timeline-badge warning"><i class="fa fa-glass"></i></div>
-                <div class="timeline-panel">
-                    <div class="timeline-heading">
-                        <h2 class="timeline-title">14:30 - Apéro</h2>
+                        <h2 class="timeline-title">14:30 - Eintreffen der Gäste</h2>
                     </div>
                     <div class="timeline-body">
                         <div class="fact">
@@ -327,24 +309,80 @@ if(isset($_GET['subscription'])) {
                     </div>
                 </div>
             </li>
+            <li class="timeline-inverted">
+                <div class="timeline-badge warning"><i class="fa fa-glass"></i></div>
+                <div class="timeline-panel">
+                    <div class="timeline-heading">
+                        <h2 class="timeline-title">14:45 - Eintreffen des Brautpaares</h2>
+                    </div>
+                    <div class="timeline-body">
+                        <div class="fact">
+                            <i class="fa fa-clock-o"></i>
+                            <p>06. Juni 2015 ab 14:45 Uhr</p>
+                        </div>
+                        <div class="fact">
+                            <i class="fa fa-map-marker"></i>
+                            <p>Schloss Wülflingen<br />Wülflingerstrasse 214<br />8408 Winterthur</p>
+                        </div>
+                        <br />
+                        <p>Wenn ihr etwas zur Gestaltung des Nachmittags beitragen wollt, wendet euch bitte an unsere Trauzeugen.</p>
+                    </div>
+                </div>
+            </li>
+            <?php if($view == 'apero'): ?>
+				<li>
+					<div class="timeline-badge danger"><i class="fa fa-clock-o"></i></div>
+					<div class="timeline-panel">
+						<div class="timeline-heading">
+							<h2 class="timeline-title">17:30 - Ende Apero</h2>
+						</div>
+						<div class="timeline-body">
+							<div class="fact">
+								<i class="fa fa-clock-o"></i>
+								<p>06. Juni 2015 ca 17:30 Uhr</p>
+							</div>
+						</div>
+					</div>
+				</li>
+            <?php endif; ?>
             <?php if($view == 'essen'): ?>
                 <li>
-                    <div class="timeline-badge danger"><i class="fa fa-cutlery"></i></div>
+                    <div class="timeline-badge success"><i class="fa fa-car"></i></div>
                     <div class="timeline-panel">
                         <div class="timeline-heading">
-                            <h2 class="timeline-title">17:00 - Essen & Feier</h2>
+                            <h2 class="timeline-title">17:15 - Abfahrt nach Henggart</h2>
                         </div>
                         <div class="timeline-body">
                             <div class="fact">
                                 <i class="fa fa-clock-o"></i>
-                                <p>06. Juni 2015 ab 17:00 Uhr</p>
+                                <p>06. Juni 2015 ab 17:15 Uhr</p>
                             </div>
                             <div class="fact">
                                 <i class="fa fa-map-marker"></i>
                                 <p>Restaurant Bahnhof Henggart<br />Alte Andelfingerstr. 2<br />8444 Henggart</p>
                             </div>
                             <br />
-                            <p>Mit den geladenen Gästen werden wir uns anschliessend um ca. 17.00 Uhr aus dem grossen Rahmen verabschieden und im kleineren Rahmen mit Privatautos auf den Weg ins Restaurant Bahnhof Henggart machen. Dort erwartet euch ein fröhliches Abendessen mit gemütlichem Beisammensein.</p>
+                            <p>Mit den geladenen Gästen werden wir um ca. 17.15 Uhr aus dem grossen Rahmen verabschieden und mit Privatautos auf den Weg ins Restaurant Bahnhof Henggart machen.</p>
+                        </div>
+                    </div>
+                </li>
+                <li class="timeline-inverted">
+                    <div class="timeline-badge danger"><i class="fa fa-cutlery"></i></div>
+                    <div class="timeline-panel">
+                        <div class="timeline-heading">
+                            <h2 class="timeline-title">17:30 - Essen & Feier</h2>
+                        </div>
+                        <div class="timeline-body">
+                            <div class="fact">
+                                <i class="fa fa-clock-o"></i>
+                                <p>06. Juni 2015 ab 17:30 Uhr</p>
+                            </div>
+                            <div class="fact">
+                                <i class="fa fa-map-marker"></i>
+                                <p>Restaurant Bahnhof Henggart<br />Alte Andelfingerstr. 2<br />8444 Henggart</p>
+                            </div>
+                            <br />
+                            <p>Im Restaurant Bahnof erwartet uns ein feines Abendessen mit gemütlichem Beisammensein sowie Musik und Tanz. Falls ihr etwas zur Gestaltung des Abendprogrammes beisteuern wollt, meldet euch bitte bei unseren Trauzeugen.</p>
                         </div>
                     </div>
                 </li>
@@ -413,9 +451,9 @@ if(isset($_GET['subscription'])) {
         </div>
         <div class="row">
             <div class="col-sm-12 text-center">
-                <p>Für alle Ideenlosen haben wir uns fleissig Gedanken gemacht, um euch die Suche nach einem passenden Geschenk zu erleichtern. Mit einem Klick auf den folgenden Link gelangt ihr auf unsere Wunschliste.</p>
+                <p>Für alle Ideenlosen haben wir uns fleissig Gedanken gemacht, um euch die Suche nach einem passenden Geschenk zu erleichtern. Mit einem Klick auf den folgenden Link gelangt ihr auf unsere Wunschliste. Natürlich freuen wir uns auch sehr über eigene Ideen.</p>
 
-                <a href="http://9gag.com" target="_blank" class="btn btn-primary btn-lg" role="button"><i class="fa fa-shopping-cart"></i> Auf zur Wunschliste</a>
+                <a href="http://www.wunsch-galerie.de/Gast/Liste-Der-Wuensche.aspx?wz=YK3NNAKH" target="_blank" class="btn btn-primary btn-lg" role="button"><i class="fa fa-shopping-cart"></i> Auf zur Wunschliste</a>
             </div>
         </div>
     </div>
