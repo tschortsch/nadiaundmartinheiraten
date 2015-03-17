@@ -129,7 +129,7 @@ if(isset($_GET['subscription'])) {
                         <div class="item active">
                             <img src="Resources/Images/thatsus/2006.03.-Vibes.jpg" alt="2006 - Wir beim ersten Treffen" title="2006 - Wir beim ersten Treffen" />
                             <div class="carousel-caption">
-                                2006 - Wir beim ersten Treffen
+                                2006 - Unsere ersten gemeinsamen Schneeengel
                             </div>
                         </div>
                         <div class="item">
@@ -293,7 +293,7 @@ if(isset($_GET['subscription'])) {
                 <div class="timeline-badge info"><i class="fa fa-map-marker"></i></div>
                 <div class="timeline-panel">
                     <div class="timeline-heading">
-                        <h2 class="timeline-title">14:30 - Eintreffen der Gäste</h2>
+                        <h2 class="timeline-title">14:30 - Eintreffen der Gäste zum Apéro</h2>
                     </div>
                     <div class="timeline-body">
                         <div class="fact">
@@ -325,7 +325,9 @@ if(isset($_GET['subscription'])) {
                             <p>Schloss Wülflingen<br />Wülflingerstrasse 214<br />8408 Winterthur</p>
                         </div>
                         <br />
-                        <p>Wenn ihr etwas zur Gestaltung des Nachmittags beitragen wollt, wendet euch bitte an unsere Trauzeugen.</p>
+                        <?php if($view == 'apero'): ?>
+							<p>Wenn ihr etwas zur Gestaltung des Nachmittags beitragen wollt, wendet euch bitte an unsere Trauzeugen.</p>
+                        <?php endif; ?>
                     </div>
                 </div>
             </li>
@@ -334,12 +336,12 @@ if(isset($_GET['subscription'])) {
 					<div class="timeline-badge danger"><i class="fa fa-clock-o"></i></div>
 					<div class="timeline-panel">
 						<div class="timeline-heading">
-							<h2 class="timeline-title">17:30 - Ende Apero</h2>
+							<h2 class="timeline-title">17:30 - Ende Apéro</h2>
 						</div>
 						<div class="timeline-body">
 							<div class="fact">
 								<i class="fa fa-clock-o"></i>
-								<p>06. Juni 2015 ca 17:30 Uhr</p>
+								<p>06. Juni 2015 ca. 17:30 Uhr</p>
 							</div>
 						</div>
 					</div>
@@ -362,7 +364,7 @@ if(isset($_GET['subscription'])) {
                                 <p>Restaurant Bahnhof Henggart<br />Alte Andelfingerstr. 2<br />8444 Henggart</p>
                             </div>
                             <br />
-                            <p>Mit den geladenen Gästen werden wir um ca. 17.15 Uhr aus dem grossen Rahmen verabschieden und mit Privatautos auf den Weg ins Restaurant Bahnhof Henggart machen.</p>
+                            <p>Mit den geladenen Gästen werden wir uns um ca. 17.15 Uhr aus dem grossen Rahmen verabschieden und uns auf den Weg ins Restaurant Bahnhof Henggart machen.</p>
                         </div>
                     </div>
                 </li>
