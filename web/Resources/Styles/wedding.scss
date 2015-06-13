@@ -214,6 +214,8 @@ section {
     padding: 10px 25px;
 }
 
+
+
 footer {
     background-color: #363636;
     color: $footer-color;
@@ -230,6 +232,13 @@ footer {
         &.active {
             color: #ffffff;
         }
+    }
+}
+
+// Thank you page
+#impressions {
+    #links img {
+        height: 120px;
     }
 }
 

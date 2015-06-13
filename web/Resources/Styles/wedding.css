@@ -416,6 +416,9 @@ footer {
     footer a:hover, footer a:focus, footer a:active, footer a.active {
       color: #ffffff; }
 
+#impressions #links img {
+  height: 120px; }
+
 ::-moz-selection {
   background: #fee5fc; }
 

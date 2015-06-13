@@ -52,7 +52,6 @@ if(isset($_POST['password'])) {
 
     <!-- Page styles -->
     <link rel="stylesheet" href="Resources/Styles/wedding.css">
-    <link rel="stylesheet" href="Resources/Styles/thankyou.css">
 </head>
 
 <body id="page-top" class="index">
