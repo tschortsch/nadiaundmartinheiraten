@@ -81,7 +81,7 @@ if(isset($_POST['password'])) {
                     <a href="#page-top"></a>
                 </li>
                 <li>
-                    <a class="page-scroll" href="#thankyou" title="Vielen Dank!"><i class="fa fa-venus-mars"></i><span class="visible-xs-inline"> Vielen Dank!</span></a>
+                    <a class="page-scroll" href="#thankyou" title="Vielen Dank!"><i class="fa fa-thumbs-up"></i><span class="visible-xs-inline"> Vielen Dank!</span></a>
                 </li>
                 <li>
                     <a class="page-scroll" href="#impressions" title="Impressionen"><i class="fa fa-camera"></i><span class="visible-xs-inline"> Impressionen</span></a>
@@ -107,11 +107,11 @@ if(isset($_POST['password'])) {
     <div class="container">
         <div class="row">
             <div class="col-sm-12 text-center">
-                <h2 class="section-heading"><i class="fa fa-venus-mars"></i> Vielen Dank</h2>
+                <h2 class="section-heading"><i class="fa fa-thumbs-up"></i> Vielen Dank</h2>
             </div>
         </div>
         <div class="row">
-            <div class="col-sn-12 text-justify">
+            <div class="col-sm-12 text-justify">
                 <p>
                     Bacon ipsum dolor amet t-bone kevin shank, pancetta salami frankfurter kielbasa flank venison cow doner ham ball tip ribeye cupim. Pastrami pork andouille pork chop frankfurter beef ribs porchetta rump pancetta kielbasa corned beef short loin swine ham. Pancetta ground round t-bone ribeye chicken alcatra. Sausage pancetta turducken bresaola tri-tip ground round ham hock salami cow flank prosciutto frankfurter pork. Kielbasa ribeye shoulder, t-bone pork chop tri-tip ham shank turkey flank meatball fatback biltong shankle. Andouille flank jerky landjaeger, shank tail alcatra beef ribs biltong doner pork belly strip steak.
                 </p>
