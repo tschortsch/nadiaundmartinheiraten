@@ -97,8 +97,7 @@ if(isset($_POST['password'])) {
 <header>
     <div class="container">
         <div class="intro-text">
-            <div class="intro-heading">Vielen Dank!</div>
-            <div class="intro-lead-in">am 06. Juni 2015</div>
+            <div class="intro-heading">Wir haben uns getraut!</div>
         </div>
     </div>
 </header>
