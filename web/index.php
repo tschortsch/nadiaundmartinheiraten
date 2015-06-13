@@ -18,7 +18,7 @@ $wrongpassword = isset($_GET['wrongpassword']) && $_GET['wrongpassword'] == 1;
     <link rel="shortcut icon" href="Resources/Images/favicon-128px.png">
     <link rel="icon" sizes="128x128" href="Resources/Images/favicon-128px.png">
     <link rel="icon" sizes="192x192" href="Resources/Images/favicon-192px.png">
-    <title>Nadia & Martin heiraten!</title>
+    <title>Nadia & Martin haben geheiratet!</title>
 
     <!-- Android specific -->
     <meta name="theme-color" content="#9869B0">
@@ -53,10 +53,10 @@ $wrongpassword = isset($_GET['wrongpassword']) && $_GET['wrongpassword'] == 1;
     <div class="row">
         <!-- Header -->
         <header class="text-center">
-            <div class="intro-heading">Nadia und Martin heiraten!</div>
+            <div class="intro-heading">Nadia und Martin haben geheiratet!</div>
         </header>
         <div class="col-sm-offset-3 col-sm-6 col-lg-offset-4 col-lg-4">
-            <form id="loginform" action="wedding.php" method="post">
+            <form id="loginform" action="thankyou.php" method="post">
                 <div class="form-group <?php echo $wrongpassword ? 'has-error has-feedback' : ''; ?>">
                     <label class="sr-only" for="password">Passwort</label>
                     <input type="password" class="form-control" id="password" name="password" placeholder="Passwort">

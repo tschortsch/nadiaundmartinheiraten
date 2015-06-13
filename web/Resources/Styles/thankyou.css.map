@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": "AACI,uBAAW;EACP,KAAK,EAAE,KAAK",
+"sources": ["thankyou.scss"],
+"names": [],
+"file": "thankyou.css"
+}
