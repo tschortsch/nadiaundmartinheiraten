@@ -39,7 +39,7 @@ if(isset($_GET['subscription'])) {
     <link rel="apple-touch-icon-precomposed" sizes="128x128" href="Resources/Images/favicon-128px.png">
 
     <!-- Bootstrap -->
-    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css">
 
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -49,8 +49,8 @@ if(isset($_GET['subscription'])) {
     <![endif]-->
 
     <!-- Custom Fonts -->
-    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
-    <link href="//fonts.googleapis.com/css?family=Source+Sans+Pro:400,700,400italic,700italic|Great+Vibes" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700,400italic,700italic|Great+Vibes" rel="stylesheet" type="text/css">
 
     <!-- Page styles -->
     <link rel="stylesheet" href="Resources/Styles/wedding.css">
@@ -665,15 +665,15 @@ if(isset($_GET['subscription'])) {
 </footer>
 
 <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-<script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
 <!-- Include all compiled plugins (below), or include individual files as needed -->
-<script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.2/js/bootstrap.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/js/bootstrap.min.js"></script>
 
 <!-- images loaded script -->
 <script src="Resources/JavaScripts/imagesloaded.pkgd.min.js"></script>
 
 <!-- Page Scripts -->
-<script src="//cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>
 <script src="Resources/JavaScripts/classie.js"></script>
 <script src="Resources/JavaScripts/cbpAnimatedHeader.js"></script>
 <script src="Resources/JavaScripts/jqBootstrapValidation.js"></script>
