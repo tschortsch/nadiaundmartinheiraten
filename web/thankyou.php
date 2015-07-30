@@ -9,7 +9,7 @@ if(isset($_POST['password'])) {
     $password = $_GET['password'];
 }
 
-checkLogin($password);
+$view = checkLogin($password);
 ?>
 
 <!DOCTYPE html>
