@@ -8,6 +8,8 @@ if(isset($_POST['password'])) {
 } elseif(isset($_GET['password'])) {
     $password = $_GET['password'];
 }
+
+checkLogin($password);
 ?>
 
 <!DOCTYPE html>
