@@ -103,7 +103,7 @@ $view = checkLogin($password);
     </div>
 </header>
 
-<!-- Thats us -->
+<!-- Thank you section -->
 <section id="thankyou">
     <div class="container">
         <div class="row">
@@ -124,7 +124,7 @@ $view = checkLogin($password);
     </div>
 </section>
 
-<!-- Services Section -->
+<!-- Impressions Section -->
 <section id="impressions" class="bg-light-gray">
     <div class="container">
         <div class="row">
@@ -142,22 +142,14 @@ $view = checkLogin($password);
                     <a class="prev">‹</a>
                     <a class="next">›</a>
                     <a class="close">×</a>
-                    <ol class="indicator"></ol>
                 </div>
 
                 <div id="links">
-                    <a href="Resources/Images/thatsus/2006.03.-Vibes.jpg" title="" data-gallery>
-                        <img src="Resources/Images/thatsus/2006.03.-Vibes.jpg" class="img-thumbnail" alt="">
-                    </a>
-                    <a href="Resources/Images/thatsus/2006.08.-Suedtuerkei-1.jpg" title="" data-gallery>
-                        <img src="Resources/Images/thatsus/2006.08.-Suedtuerkei-1.jpg" class="img-thumbnail" alt="">
-                    </a>
-                    <a href="Resources/Images/thatsus/2006.08.-Suedtuerkei-2.jpg" title="" data-gallery>
-                        <img src="Resources/Images/thatsus/2006.08.-Suedtuerkei-2.jpg" class="img-thumbnail" alt="">
-                    </a>
-                    <a href="Resources/Images/thatsus/2007.07.-Paris.jpg" title="" data-gallery>
-                        <img src="Resources/Images/thatsus/2007.07.-Paris.jpg" class="img-thumbnail" alt="">
-                    </a>
+                    <?php for($x = 1; $x <= 31; $x++) { ?>
+                        <a href="Resources/Images/impressions/HochzeitRutschmann_<?php echo str_pad($x, 2, "0", STR_PAD_LEFT); ?>.jpg" title="" data-gallery>
+                            <img src="Resources/Images/impressions/HochzeitRutschmann_<?php echo str_pad($x, 2, "0", STR_PAD_LEFT); ?>.jpg" class="img-thumbnail" alt="">
+                        </a>
+                    <?php } ?>
                 </div>
 
             </div>
