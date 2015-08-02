@@ -108,17 +108,18 @@ $view = checkLogin($password);
     <div class="container">
         <div class="row">
             <div class="col-sm-12 text-center">
-                <h2 class="section-heading"><i class="fa fa-thumbs-up"></i> Vielen Dank</h2>
+                <h2 class="section-heading"><i class="fa fa-thumbs-up"></i> Herzlichen Dank!</h2>
             </div>
         </div>
         <div class="row">
-            <div class="col-sm-12 text-justify">
+            <div class="col-sm-12 text-center">
                 <p>
-                    Bacon ipsum dolor amet t-bone kevin shank, pancetta salami frankfurter kielbasa flank venison cow doner ham ball tip ribeye cupim. Pastrami pork andouille pork chop frankfurter beef ribs porchetta rump pancetta kielbasa corned beef short loin swine ham. Pancetta ground round t-bone ribeye chicken alcatra. Sausage pancetta turducken bresaola tri-tip ground round ham hock salami cow flank prosciutto frankfurter pork. Kielbasa ribeye shoulder, t-bone pork chop tri-tip ham shank turkey flank meatball fatback biltong shankle. Andouille flank jerky landjaeger, shank tail alcatra beef ribs biltong doner pork belly strip steak.
+                    Am 6. Juni haben wir uns getraut. Es war wunderschön mit euch allen zu feiern. Ihr habt unsere Hochzeit zu einem unvergesslichen Tag gemacht. Dafür danken wir euch herzlich. Über die vielen Glückwünsche, Geschenke und Überraschungen haben wir uns sehr gefreut.
                 </p>
                 <p>
-                    Doner shankle jerky drumstick tri-tip, shoulder jowl corned beef ball tip pastrami. Tenderloin alcatra pork loin t-bone fatback shank turkey frankfurter beef ribs turducken pork pastrami ribeye porchetta. Spare ribs turkey cupim pork belly ham shank ground round. Drumstick pork belly t-bone, jerky short loin kielbasa jowl chicken. Flank pig bresaola, picanha cow ball tip chuck ground round spare ribs porchetta shank.
+                    Viele Eindrücke werden uns lange in Erinnerung bleiben. Ein paar Impressionen teilen wir hier gerne mit euch.
                 </p>
+                <p class="lead">Nadia & Martin</p>
             </div>
         </div>
     </div>
