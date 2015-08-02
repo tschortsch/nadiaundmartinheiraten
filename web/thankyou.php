@@ -148,7 +148,7 @@ $view = checkLogin($password);
                 <div id="links">
                     <?php for($x = 1; $x <= 31; $x++) { ?>
                         <a href="Resources/Images/impressions/HochzeitRutschmann_<?php echo str_pad($x, 2, "0", STR_PAD_LEFT); ?>.jpg" title="" data-gallery>
-                            <img src="Resources/Images/impressions/HochzeitRutschmann_<?php echo str_pad($x, 2, "0", STR_PAD_LEFT); ?>.jpg" class="img-thumbnail" alt="">
+                            <img src="Resources/Images/impressions/thumbs/HochzeitRutschmann_<?php echo str_pad($x, 2, "0", STR_PAD_LEFT); ?>.jpg" class="img-thumbnail" alt="">
                         </a>
                     <?php } ?>
                 </div>
