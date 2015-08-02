@@ -82,7 +82,7 @@ $view = checkLogin($password);
                     <a href="#page-top"></a>
                 </li>
                 <li>
-                    <a class="page-scroll" href="#thankyou" title="Vielen Dank!"><i class="fa fa-thumbs-up"></i><span class="visible-xs-inline"> Vielen Dank!</span></a>
+                    <a class="page-scroll" href="#thankyou" title="Herzlichen Dank!"><i class="fa fa-thumbs-up"></i><span class="visible-xs-inline"> Herzlichen Dank!</span></a>
                 </li>
                 <li>
                     <a class="page-scroll" href="#impressions" title="Impressionen"><i class="fa fa-camera"></i><span class="visible-xs-inline"> Impressionen</span></a>
